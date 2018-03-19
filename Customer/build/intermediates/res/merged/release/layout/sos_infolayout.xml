@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?><!--addded coordinator layout by @kalai-->
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_bill_trans"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/sosotextlay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/sos_white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="SOS"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sosotextlay1"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/text_soscontent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_app_gray" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/llSigninMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin">
+
+
+            <com.jayeen.customer.component.MyFontButton
+                android:id="@+id/btnPolice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_police"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+
+            <com.jayeen.customer.component.MyFontButton
+                android:id="@+id/btnAmbulanceservice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btnPolice"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_ambulance"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+
+
+                />
+
+            <com.jayeen.customer.component.MyFontButton
+                android:id="@+id/btnFirestation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btnAmbulanceservice"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_firestation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/mainsosback"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/gradient_sosbackbtn"
+                android:text="@string/text_back" />
+
+        </RelativeLayout>
+
+        <!--<com.moovan.customer.component.MyFontButton
+            android:id="@+id/btnSignIn"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/llSigninMain"
+            android:background="@drawable/btn_pickup"
+            android:gravity="center"
+            android:text="@string/text_signin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />-->
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

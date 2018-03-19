@@ -1,0 +1,129 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:textDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_feedback_view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_margin">
+
+            <com.jayeen.driver.utills.NplusTextview
+                android:id="@+id/tvFeedBackTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/feedback_padding"
+                android:gravity="center"
+                android:text="Button"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray"
+                app:drawableTopCompat="@drawable/clock" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:background="@color/gray"></LinearLayout>
+
+            <com.jayeen.driver.utills.NplusTextview
+                android:id="@+id/tvFeedbackAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/feedback_padding"
+                android:gravity="center"
+                android:text="Price"
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray"
+                app:drawableTopCompat="@drawable/payment" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:background="@color/gray"></LinearLayout>
+
+            <com.jayeen.driver.utills.NplusTextview
+                android:id="@+id/tvFeedbackDistance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/feedback_padding"
+                android:gravity="center"
+                android:text="Button"
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray"
+                app:drawableTopCompat="@drawable/miles" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.5"
+                android:background="@color/gray"></LinearLayout>
+
+            <com.jayeen.driver.widget.MyFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/feedback_margin_one"
+                android:layout_marginLeft="@dimen/feedback_margin_two"
+                android:layout_marginTop="@dimen/feedback_margin_three"
+                android:text="@string/text_comment"
+                android:textColor="@color/color_app_gray"
+                android:textSize="@dimen/feedback_text_size" />
+
+
+            <com.jayeen.driver.widget.MyFontEdittextView
+                android:id="@+id/etFeedbackComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/feedback_margin_two"
+                android:layout_marginRight="@dimen/feedback_margin_two"
+                android:layout_marginTop="@dimen/feedback_margin_three"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/text_comment"
+                android:lines="4"
+                android:maxLines="4"
+                android:minLines="4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_text_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <com.jayeen.driver.widget.MyFontButton
+                android:id="@+id/tvFeedbackSubmit"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg_name_height"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_primary"
+                android:gravity="center"
+                android:text="@string/text_submit"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

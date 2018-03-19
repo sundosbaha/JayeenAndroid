@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:textDirection="rtl"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_height="match_parent">-->
+            <include
+                android:id="@+id/clientDetailView"
+                layout="@layout/include_detail_view" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay1"
+                android:background="@android:color/transparent"
+                android:padding="8dp">
+                <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/source_fill_box"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:visibility="visible"-->
+                <!--android:id="@+id/tlay1"-->
+                <!--&gt;-->
+                <!--<TextView android:id="@+id/text_pickupaddr"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:drawableLeft="@drawable/pin_client"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:marqueeRepeatLimit="marquee_forever"-->
+                <!--android:ellipsize="marquee"-->
+                <!--/>-->
+                <!--&lt;!&ndash;  android:text="@string/text_noaddress_title"&ndash;&gt;-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/source_fill_box"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:visibility="visible"-->
+                <!--android:layout_below="@+id/tlay1"-->
+                <!--android:layout_marginTop="1.5dp"-->
+                <!--&gt;-->
+                <!--<TextView android:id="@+id/text_dropaddr"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:drawableLeft="@drawable/pin_client_destination"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:ellipsize="marquee"-->
+                <!--android:marqueeRepeatLimit="marquee_forever"/>-->
+                <!--</LinearLayout>-->
+
+                <!--&lt;!&ndash; android:text="LMS Street CoimbatoreLMS Street \n LMS Street Coimbatore" &ndash;&gt;-->
+
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/jobMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/layout1addr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lay1"
+                            android:background="@android:color/transparent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:elevation="2dp"
+                                app:cardBackgroundColor="#d1ffffff"
+                                app:cardElevation="2dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/tlay1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal"
+                                        android:visibility="visible">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="3dp"
+                                            android:scaleType="fitXY"
+                                            app:srcCompat="@drawable/pin_client" />
+
+                                        <TextView
+                                            android:id="@+id/text_pickupaddr"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="@dimen/pick_drop_height"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="3dp"
+                                            android:drawablePadding="10dp"
+                                            android:ellipsize="marquee"
+                                            android:focusable="true"
+                                            android:gravity="right"
+                                            android:focusableInTouchMode="true"
+                                            android:marqueeRepeatLimit="marquee_forever"
+                                            android:maxLines="1"
+                                            android:hint="From "
+                                            android:scrollHorizontally="true"
+                                            android:textColor="@color/black" />
+                                        <!--  android:text="@string/text_noaddress_title"-->
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_margin="4dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0.1dp"
+                                            android:layout_marginLeft="32dp"
+                                            android:layout_marginRight="32dp"
+                                            android:background="#80000000" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/tlay1"
+                                        android:layout_marginTop="1.5dp"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal"
+                                        android:visibility="visible">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="3dp"
+                                            android:scaleType="fitXY"
+                                            app:srcCompat="@drawable/pin_client_destination" />
+
+                                        <TextView
+                                            android:id="@+id/text_dropaddr"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="@dimen/pick_drop_height"
+                                            android:layout_marginBottom="3dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:drawablePadding="5dp"
+                                            android:ellipsize="marquee"
+                                            android:gravity="right"
+                                            android:hint="To"
+                                            android:focusable="true"
+                                            android:focusableInTouchMode="true"
+                                            android:marqueeRepeatLimit="marquee_forever"
+                                            android:maxLines="1"
+                                            android:scrollHorizontally="true"
+                                            android:textColor="@color/black" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+                            <!-- android:text="LMS Street CoimbatoreLMS Street \n LMS Street Coimbatore" -->
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </com.google.android.gms.maps.MapView>
+
+                <!--<ImageButton-->
+                <!--android:id="@+id/btnNavigate"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical|right"-->
+                <!--android:layout_marginRight="@dimen/activity_margin_register"-->
+                <!--android:layout_marginTop="@dimen/activity_margin_register"-->
+                <!--android:background="@drawable/navigation"-->
+                <!--android:visibility="visible" />-->
+
+                <ImageButton
+                    android:id="@+id/btnCancelTrip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="bottom|left"
+                    android:layout_margin="@dimen/feedback_padding"
+                    android:background="@drawable/circle_shape_textview"
+                    android:src="@drawable/cancel_trip" />
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <com.jayeen.driver.utills.NplusTextview
+                    android:id="@+id/tvJobTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.5"
+                    android:drawablePadding="@dimen/feedback_padding"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="0 MINS"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_app_gray"
+                    app:drawableTopCompat="@drawable/clock" />
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:alpha="0.5"
+                    android:background="@color/gray" />
+
+                <com.jayeen.driver.utills.NplusTextview
+                    android:id="@+id/tvJobDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dimen_history_margin_top"
+                    android:layout_weight="1.5"
+                    android:drawablePadding="@dimen/feedback_padding"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_app_gray"
+                    app:drawableTopCompat="@drawable/miles" />
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:alpha="0.5"
+                    android:background="@color/gray" />
+
+                <com.jayeen.driver.utills.NplusTextview
+                    android:id="@+id/tvPaymentType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.5"
+                    android:drawablePadding="@dimen/feedback_padding"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/text_type_cash"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_app_gray"
+                    app:drawableTopCompat="@drawable/payment" />
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:alpha="0.5"
+                    android:background="@color/gray" />
+
+                <com.jayeen.driver.utills.NplusTextview
+                    android:id="@+id/tvJobestimaterate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dimen_history_margin_top"
+                    android:layout_weight="1.5"
+                    android:drawablePadding="@dimen/feedback_padding"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_app_gray"
+                    app:drawableTopCompat="@drawable/payment" />
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:alpha="0.5"
+                    android:background="@color/gray" />
+
+                <com.jayeen.driver.utills.NplusTextview
+                    android:id="@+id/tvJobCallClient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1.5"
+                    android:drawablePadding="@dimen/feedback_padding"
+                    android:gravity="center"
+                    android:text="@string/text_call"
+                    android:textColor="@color/color_blue"
+                    app:drawableTopCompat="@drawable/call_user" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.jayeen.driver.widget.MyFontTextView
+                    android:id="@+id/tvJobwait"
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/bg_name_height"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector_primary"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:text="@string/text_wait"
+                    android:textColor="@color/white" />
+                <com.jayeen.driver.widget.MyFontTextView
+                    android:id="@+id/tvJobStatus"
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/bg_name_height"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector_primary"
+                    android:gravity="center"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/fab"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="130dp"
+            android:layout_marginRight="@dimen/feedback_padding"
+            android:layout_marginTop="@dimen/feedback_padding"
+            android:background="@drawable/circle_shape_textview_red"
+            android:src="@android:drawable/ic_dialog_map" />
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginBottom="120dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:backgroundTint="@android:drawable/ic_dialog_map"-->
+        <!--android:visibility="visible"/>-->
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 45,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 427,
+                        "endColumn": 45,
+                        "endOffset": 468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 41,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 521,
+                        "endColumn": 41,
+                        "endOffset": 558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 47,
+                    "endOffset": 244
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 47,
+                        "endOffset": 516
+                    }
+                }
+            }
+        ]
+    }
+]

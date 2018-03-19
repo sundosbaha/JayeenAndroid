@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!--addded coordinator layout by @kalai-->
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--line no 23,85,98 convert form image to color  @kalai-->
+
+        <!-- android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/bg_name"-->
+        <!--changed to-->
+        <!-- android:layout_height="@dimen/bg_name_height"
+            android:background="@color/colorPrimary"-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bg_name_height"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/text_select_cancel"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_edit_hintval">
+
+                <com.jayeen.customer.component.MyFontEdittextView
+                    android:id="@+id/etrejectval"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/dimen_history_one"
+                    android:paddingRight="@dimen/dimen_history_one"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </android.support.design.widget.TextInputLayout>
+            <!--  <com.automated.taxinow.driver.component.MyFontEdittextView
+            android:id="@+id/"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edittext"
+
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+            <!-- android:background="@drawable/bg_btn_small"-->
+            <!--change to-->
+            <!-- android:background="@color/colorPrimary"-->
+            <!--height is change to match parent-->
+
+            <!--android:background="@drawable/bg_btn_small"-->
+            <!--change to-->
+            <!-- android:background="@color/colorPrimary"-->
+            <com.jayeen.customer.component.MyFontButton
+                android:id="@+id/btnConfirmReason"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg_name_height"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_confirm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_popup_big" />
+
+            <com.jayeen.customer.component.MyFontButton
+                android:id="@+id/btnCancelReason"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg_name_height"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_popup_big" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

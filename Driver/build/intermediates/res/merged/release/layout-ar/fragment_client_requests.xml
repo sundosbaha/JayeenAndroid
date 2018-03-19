@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:textDirection="rtl"
+    android:background="@color/app_back_color">
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/clientReqMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <!--
+    <RelativeLayout
+        android:id="@+id/rlClientReqTimeLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/pbClientReqTime"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:minHeight="20dp"
+            android:progress="10"
+            android:progressDrawable="@drawable/customprogress" />
+
+        <com.automated.taxinow.driver.widget.MyFontTextView
+            android:id="@+id/tvClentReqRemainTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+        -->
+
+        <include
+            android:id="@+id/clientDetailView"
+            layout="@layout/include_detail_view"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:id="@+id/relMap"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/layout1addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lay1"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="10dp"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        app:cardBackgroundColor="#d1ffffff"
+                        app:cardElevation="2dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/tlay1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="3dp"
+                                android:paddingTop="3dp"
+                                android:visibility="visible"
+                                android:weightSum="100">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="3dp"
+                                    android:layout_marginTop="2dp"
+                                    android:background="@drawable/pin_client"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/text_pickupaddr"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="3dp"
+                                    android:drawablePadding="10dp"
+                                    android:ellipsize="marquee"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:gravity="center_vertical"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="true"
+                                    android:textColor="@color/black" />
+                                <!--  android:text="@string/text_noaddress_title"-->
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_margin="4dp">
+
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:layout_marginLeft="32dp"-->
+                                    <!--android:layout_marginRight="32dp"-->
+                                    <!--android:background="#80000000" />-->
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tlay1"
+                                android:layout_marginTop="1.5dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingBottom="3dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="3dp"
+                                android:visibility="visible">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="3dp"
+                                    android:background="@drawable/pin_client_destination"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/text_dropaddr"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:ellipsize="marquee"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:gravity="center_vertical"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:maxLines="1"
+                                    android:scrollHorizontally="true"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <!-- android:text="LMS Street CoimbatoreLMS Street \n LMS Street Coimbatore" -->
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnMyLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/margin_bottom_location_icon"
+                android:background="@null"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/ub_button_mylocation" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearOffline"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/app_back_color"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:background="@null"
+                android:src="@drawable/app_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivAppName"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:text="@string/text_go_online_to"
+                android:textSize="@dimen/ub_textsize_big" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:id="@+id/llAcceptReject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.jayeen.driver.widget.MyFontButton
+                    android:id="@+id/btnClientAccept"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/bg_name_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector_primary"
+                    android:gravity="center"
+                    android:text="@string/text_accept"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:alpha="0.5"></LinearLayout>
+
+                <com.jayeen.driver.widget.MyFontButton
+                    android:id="@+id/btnClientReject"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/bg_name_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector_primarydark"
+                    android:gravity="center"
+                    android:text="@string/text_reject"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.jayeen.driver.widget.MyFontButton
+        android:id="@+id/btnClientReqRemainTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_count"
+        android:gravity="center"
+        android:text="58"
+        android:textColor="@color/color_blue"
+        android:textSize="42sp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true" />
+
+    <com.jayeen.driver.widget.MyFontButton
+        android:id="@+id/btnOffline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bg_name_height"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector_primary"
+        android:gravity="center"
+        android:text="@string/text_go_offline"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+</RelativeLayout>

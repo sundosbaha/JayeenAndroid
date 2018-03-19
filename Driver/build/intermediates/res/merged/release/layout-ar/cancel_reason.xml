@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="center"
+    android:layout_margin="24dp"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:textDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bg_name_height"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/text_select_cancel"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <!--   <Spinner
+               android:id="@+id/spinner"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/feedback_margin_three"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+               android:prompt="@string/spinner_title" />-->
+            <com.jayeen.driver.widget.MyFontEdittextView
+                android:id="@+id/etrejectval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/feedback_margin_three"
+                android:ems="10"
+                android:hint="@string/text_reject_stringval"
+                android:lines="2"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:maxLines="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_text_dark" />
+            <!--  <com.automated.taxinow.driver.component.MyFontEdittextView
+            android:id="@+id/"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edittext"
+
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+            <!--
+                    <com.automated.taxinow.driver.component.MyFontButton
+                        android:id="@+id/btnCancelReason"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_btn_small"
+                        android:gravity="center"
+                        android:text="@string/text_cancel"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size_popup_big" /> -->
+
+            <com.jayeen.driver.widget.MyFontButton
+                android:id="@+id/btnConfirmReason"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bg_name_height"
+                android:layout_marginBottom="@dimen/commonpadding_bottom"
+                android:layout_marginLeft="@dimen/commonpadding_rightleft"
+                android:layout_marginRight="@dimen/commonpadding_rightleft"
+                android:background="@drawable/button_selector_primary"
+                android:gravity="center"
+                android:text="@string/text_confirm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_popup_big" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

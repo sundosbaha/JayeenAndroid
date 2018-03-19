@@ -1,0 +1,395 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:apps="http://schemas.android.com/apk/res"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_profile">
+
+            <RelativeLayout
+                android:id="@+id/relProfileImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/ivProfileProfile"
+                    android:layout_width="@dimen/dimen_profile_image_width"
+                    android:layout_height="@dimen/dimen_profile_image_height"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/dimen_profile_margin_left"
+                    android:src="@drawable/user"
+                    apps:border_color="@color/white"
+                    apps:border_width="@dimen/dimen_history_padding" />
+
+                <include
+                    layout="@layout/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_profile_margin_top"
+                android:layout_toRightOf="@id/relProfileImage"
+                android:orientation="vertical">
+
+                <com.jayeen.driver.widget.MyFontEdittextView
+                    android:id="@+id/etProfileFName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/text_fname"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/dimen_profile_textsize" />
+
+                <com.jayeen.driver.widget.MyFontEdittextView
+                    android:id="@+id/etProfileLName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_profile_margin_top"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/text_lname"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/dimen_profile_textsize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relTop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin_feedback"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dimen_profile_padding_bottom"
+                android:paddingRight="@dimen/activity_margin_feedback"
+                android:paddingTop="@dimen/dimen_profile_padding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edittext">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:layout_weight="1"
+                        android:hint="@string/text_email">
+
+                        <com.jayeen.driver.widget.MyFontEdittextView
+                            android:id="@+id/etProfileEmail"
+                            style="@style/MyCheckBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:inputType="textEmailAddress"
+                            android:maxLength="30"
+                            android:paddingLeft="@dimen/dimen_history_margin_left"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/btnProfileEmailInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="@dimen/activity_margin_register"
+                        android:layout_marginRight="@dimen/activity_vertical_margin"
+                        android:minHeight="0dp"
+                        android:minWidth="0dp"
+                        android:visibility="invisible"
+                        android:tint="@color/colorPrimary"
+                        app:srcCompat="@drawable/info" />
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_margin_feedback"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/text_current_pass">
+
+                    <com.jayeen.driver.widget.MyFontEdittextView
+                        android:id="@+id/etProfileCurrentPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:maxLength="30"
+                        android:paddingLeft="@dimen/dimen_history_margin_left"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/text_new_pass"
+                    android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                    <com.jayeen.driver.widget.MyFontEdittextView
+                        android:id="@+id/etProfileNewPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:maxLength="30"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/text_retype_pass"
+                    android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                    <com.jayeen.driver.widget.MyFontEdittextView
+                        android:id="@+id/etProfileRetypePassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:maxLength="30"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:orientation="horizontal">
+
+                    <com.jayeen.driver.widget.MyFontTextView
+                        android:id="@+id/tvProfileCountryCode"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:visibility="gone" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_edittext"
+                        android:hint="@string/text_number"
+                        android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                        <com.jayeen.driver.widget.MyFontEdittextView
+                            android:id="@+id/etProfileNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:maxLength="20"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/color" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/text_address"
+                    android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                    <com.jayeen.driver.widget.MyFontEdittextView
+                        android:id="@+id/etProfileAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ems="10"
+                        android:maxLength="30"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/text_bio"
+                    android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                    <com.jayeen.driver.widget.MyFontEdittextView
+                        android:id="@+id/etProfileBio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ems="10"
+                        android:maxLength="30"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/text_zip"
+                    android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                    <com.jayeen.driver.widget.MyFontEdittextView
+                        android:id="@+id/etProfileZipCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="30"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/color" />
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edittext">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_client_image_margin_top"
+                        android:layout_weight="1"
+                        android:hint="@string/text_taxi_model"
+                        android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                        <com.jayeen.driver.widget.MyFontEdittextView
+                            android:id="@+id/etProfileModel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:ems="10"
+                            android:maxLength="30"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/btnProfileModelInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="@dimen/activity_margin_register"
+                        android:layout_marginRight="@dimen/activity_vertical_margin"
+                        android:minHeight="0dp"
+                        android:minWidth="0dp"
+                        android:visibility="invisible"
+                        android:tint="@color/colorPrimary"
+                        app:srcCompat="@drawable/info" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_margin_feedback"
+                    android:background="@drawable/bg_edittext">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/activity_margin_register"
+                        android:layout_marginTop="@dimen/activity_margin_mainscreen"
+                        android:layout_weight="1"
+                        android:hint="@string/text_taxi_number"
+                        android:paddingLeft="@dimen/dimen_history_margin_left">
+
+                        <com.jayeen.driver.widget.MyFontEdittextView
+                            android:id="@+id/etProfileVehicleNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:ems="10"
+                            android:maxLength="30"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@drawable/color" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/btnProfileVehicleNoInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="@dimen/activity_margin_register"
+                        android:layout_marginRight="@dimen/activity_vertical_margin"
+                        android:minHeight="0dp"
+                        android:minWidth="0dp"
+                        android:visibility="invisible"
+                        android:tint="@color/colorPrimary"
+                        app:srcCompat="@drawable/info" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <com.jayeen.driver.widget.MyFontButton
+            android:id="@+id/tvProfileSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_selector_primary"
+            android:gravity="center"
+            android:text="@string/text_submit"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

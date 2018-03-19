@@ -1,0 +1,1242 @@
+[
+    {
+        "outputFile": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 55,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 57,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 57,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 227,
+                    "endColumn": 54,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 54,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 55,
+                    "endOffset": 333
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 338,
+                    "endColumn": 45,
+                    "endOffset": 379
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 3814,
+                        "endColumn": 45,
+                        "endOffset": 3855
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 384,
+                    "endColumn": 41,
+                    "endOffset": 421
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3860,
+                        "endColumn": 41,
+                        "endOffset": 3897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 426,
+                    "endColumn": 52,
+                    "endOffset": 474
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2099,
+                        "endColumn": 52,
+                        "endOffset": 2147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 479,
+                    "endColumn": 53,
+                    "endOffset": 528
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2204,
+                        "endColumn": 53,
+                        "endOffset": 2253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 533,
+                    "endColumn": 51,
+                    "endOffset": 580
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2152,
+                        "endColumn": 51,
+                        "endOffset": 2199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 585,
+                    "endColumn": 53,
+                    "endOffset": 634
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2258,
+                        "endColumn": 53,
+                        "endOffset": 2307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 639,
+                    "endColumn": 53,
+                    "endOffset": 688
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2312,
+                        "endColumn": 53,
+                        "endOffset": 2361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 693,
+                    "endColumn": 52,
+                    "endOffset": 741
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2413,
+                        "endColumn": 52,
+                        "endOffset": 2461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 746,
+                    "endColumn": 46,
+                    "endOffset": 788
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2366,
+                        "endColumn": 46,
+                        "endOffset": 2408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 793,
+                    "endColumn": 59,
+                    "endOffset": 848
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2782,
+                        "endColumn": 59,
+                        "endOffset": 2837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 853,
+                    "endColumn": 56,
+                    "endOffset": 905
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2901,
+                        "endColumn": 56,
+                        "endOffset": 2953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 910,
+                    "endColumn": 58,
+                    "endOffset": 964
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2723,
+                        "endColumn": 58,
+                        "endOffset": 2777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 969,
+                    "endColumn": 58,
+                    "endOffset": 1023
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 2842,
+                        "endColumn": 58,
+                        "endOffset": 2896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1028,
+                    "endColumn": 50,
+                    "endOffset": 1074
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2958,
+                        "endColumn": 50,
+                        "endOffset": 3004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1079,
+                    "endColumn": 46,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 3593,
+                        "endColumn": 46,
+                        "endOffset": 3635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endColumn": 50,
+                    "endOffset": 1172
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 3640,
+                        "endColumn": 50,
+                        "endOffset": 3686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1177,
+                    "endColumn": 57,
+                    "endOffset": 1230
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1244,
+                        "endColumn": 57,
+                        "endOffset": 1297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1235,
+                    "endColumn": 58,
+                    "endOffset": 1289
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1359,
+                        "endColumn": 58,
+                        "endOffset": 1413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1294,
+                    "endColumn": 56,
+                    "endOffset": 1346
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1302,
+                        "endColumn": 56,
+                        "endOffset": 1354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1351,
+                    "endColumn": 55,
+                    "endOffset": 1402
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1133,
+                        "endColumn": 55,
+                        "endOffset": 1184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1407,
+                    "endColumn": 54,
+                    "endOffset": 1457
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1189,
+                        "endColumn": 54,
+                        "endOffset": 1239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1462,
+                    "endColumn": 48,
+                    "endOffset": 1506
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1470,
+                        "endColumn": 48,
+                        "endOffset": 1514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1511,
+                    "endColumn": 51,
+                    "endOffset": 1558
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1418,
+                        "endColumn": 51,
+                        "endOffset": 1465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1563,
+                    "endColumn": 54,
+                    "endOffset": 1613
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2516,
+                        "endColumn": 54,
+                        "endOffset": 2566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1618,
+                    "endColumn": 49,
+                    "endOffset": 1663
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2466,
+                        "endColumn": 49,
+                        "endOffset": 2511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1668,
+                    "endColumn": 58,
+                    "endOffset": 1722
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 918,
+                        "endColumn": 58,
+                        "endOffset": 972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1727,
+                    "endColumn": 57,
+                    "endOffset": 1780
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 977,
+                        "endColumn": 57,
+                        "endOffset": 1030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1785,
+                    "endColumn": 56,
+                    "endOffset": 1837
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 56,
+                        "endOffset": 743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1842,
+                    "endColumn": 56,
+                    "endOffset": 1894
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 56,
+                        "endOffset": 800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1899,
+                    "endColumn": 52,
+                    "endOffset": 1947
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 805,
+                        "endColumn": 52,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1952,
+                    "endColumn": 59,
+                    "endOffset": 2007
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 59,
+                        "endOffset": 913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2012,
+                    "endColumn": 53,
+                    "endOffset": 2061
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1035,
+                        "endColumn": 53,
+                        "endOffset": 1084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2066,
+                    "endColumn": 49,
+                    "endOffset": 2111
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 3735,
+                        "endColumn": 49,
+                        "endOffset": 3780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2116,
+                    "endColumn": 46,
+                    "endOffset": 2158
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3133,
+                        "endColumn": 46,
+                        "endOffset": 3175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2163,
+                    "endColumn": 50,
+                    "endOffset": 2209
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3227,
+                        "endColumn": 50,
+                        "endOffset": 3273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2214,
+                    "endColumn": 52,
+                    "endOffset": 2262
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3329,
+                        "endColumn": 52,
+                        "endOffset": 3377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2267,
+                    "endColumn": 50,
+                    "endOffset": 2313
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3278,
+                        "endColumn": 50,
+                        "endOffset": 3324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2318,
+                    "endColumn": 46,
+                    "endOffset": 2360
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3180,
+                        "endColumn": 46,
+                        "endOffset": 3222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2365,
+                    "endColumn": 61,
+                    "endOffset": 2422
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3071,
+                        "endColumn": 61,
+                        "endOffset": 3128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2427,
+                    "endColumn": 61,
+                    "endOffset": 2484
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3009,
+                        "endColumn": 61,
+                        "endOffset": 3066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2489,
+                    "endColumn": 49,
+                    "endOffset": 2534
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3382,
+                        "endColumn": 49,
+                        "endOffset": 3427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2539,
+                    "endColumn": 46,
+                    "endOffset": 2581
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1597,
+                        "endColumn": 46,
+                        "endOffset": 1639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2586,
+                    "endColumn": 50,
+                    "endOffset": 2632
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2005,
+                        "endColumn": 50,
+                        "endOffset": 2051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2637,
+                    "endColumn": 41,
+                    "endOffset": 2674
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 41,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2679,
+                    "endColumn": 43,
+                    "endOffset": 2718
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 3691,
+                        "endColumn": 43,
+                        "endOffset": 3730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2723,
+                    "endColumn": 55,
+                    "endOffset": 2774
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2571,
+                        "endColumn": 55,
+                        "endOffset": 2622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2779,
+                    "endColumn": 49,
+                    "endOffset": 2824
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2627,
+                        "endColumn": 49,
+                        "endOffset": 2672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2829,
+                    "endColumn": 53,
+                    "endOffset": 2878
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 592,
+                        "endColumn": 53,
+                        "endOffset": 641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2883,
+                    "endColumn": 47,
+                    "endOffset": 2926
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3499,
+                        "endColumn": 47,
+                        "endOffset": 3542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2931,
+                    "endColumn": 46,
+                    "endOffset": 2973
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3452,
+                        "endColumn": 46,
+                        "endOffset": 3494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2978,
+                    "endColumn": 45,
+                    "endOffset": 3019
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 515,
+                        "endColumn": 45,
+                        "endOffset": 556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3024,
+                    "endColumn": 42,
+                    "endOffset": 3062
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1554,
+                        "endColumn": 42,
+                        "endOffset": 1592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3067,
+                    "endColumn": 48,
+                    "endOffset": 3111
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1668,
+                        "endColumn": 48,
+                        "endOffset": 1712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3116,
+                    "endColumn": 54,
+                    "endOffset": 3166
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1901,
+                        "endColumn": 54,
+                        "endOffset": 1951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3171,
+                    "endColumn": 48,
+                    "endOffset": 3215
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1956,
+                        "endColumn": 48,
+                        "endOffset": 2000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3220,
+                    "endColumn": 47,
+                    "endOffset": 3263
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1717,
+                        "endColumn": 47,
+                        "endOffset": 1760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3268,
+                    "endColumn": 68,
+                    "endOffset": 3332
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1832,
+                        "endColumn": 68,
+                        "endOffset": 1896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 3337,
+                    "endColumn": 66,
+                    "endOffset": 3399
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1765,
+                        "endColumn": 66,
+                        "endOffset": 1827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3404,
+                    "endColumn": 49,
+                    "endOffset": 3449
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 49,
+                        "endOffset": 509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3454,
+                    "endColumn": 49,
+                    "endOffset": 3499
+                },
+                "from": {
+                    "file": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 49,
+                        "endOffset": 459
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/menu/bt_card_io.xml",
+        "source": "/root/.android/build-cache/642b167624391d0b9805e428d5625be205839c37/output/res/menu/bt_card_io.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/menu/menu_ubermap_activity.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/menu/menu_ubermap_activity.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/menu/flags.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/bundles/default/res/menu/flags.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/menu/add_source_menu.xml",
+        "source": "/root/.android/build-cache/ccdd92dfb582188879aff12c3d7ca4dd23f2ad80/output/res/menu/add_source_menu.xml"
+    }
+]

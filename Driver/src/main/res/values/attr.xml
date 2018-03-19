@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="app">
+        <attr name="customFont" format="string" />
+        <attr name="posX" format="integer"></attr>
+        <attr name="posY" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="NplusStopWatch">
+        <attr name="maxProgress" format="integer"/>
+        <attr name="outerCircleFillColor" format="color"/>
+        <attr name="innerCircleFillColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="NplusTextview">
+        <attr name="drawableLeftCompat" format="reference"/>
+        <attr name="drawableRightCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CircularMusicProgressBar">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color|reference" />
+        <attr name="border_overlay" format="boolean" />
+        <attr name="draw_anticlockwise" format="boolean" />
+        <attr name="fill_color" format="color|reference" />
+        <attr name="progress_color" format="color|reference" />
+        <attr name="centercircle_diammterer" format="float|reference" />
+        <attr name="progress_startAngle" format="float|reference" />
+
+    </declare-styleable>
+</resources>

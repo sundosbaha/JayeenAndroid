@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    android:textDirection="rtl"
+    android:paddingTop="5dp">
+
+
+    <ImageView
+        android:id="@+id/car_line"
+        android:layout_width="20dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:background="@color/newcolor"
+
+        />
+    <!--<android.support.v7.widget.CardView-->
+    <!--app:cardCornerRadius="6dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/gradient_bookunselect_btn">-->
+
+    <LinearLayout
+        android:id="@+id/mainlayveh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/gradient_bookunselect_btn"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTypeminapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/ub_textsize_search_small"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivIcon2api"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp" />
+
+                <ImageView
+                    android:id="@+id/ivSelectService2api"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/selected_service" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvType2api"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:gravity="center"
+                android:text="PEOPLE MOVER askfdskfsd sadlsdafsdkl"
+                android:textAllCaps="true"
+                android:lines="2"
+                android:ellipsize="marquee"
+                android:maxLines="2"
+                android:textColor="@color/newcolor"
+                android:textSize="@dimen/ub_textsize_search_small"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--<android.support.v4.widget.Space-->
+    <!--android:layout_width="5dp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+
+    <!--<android.support.v4.widget.Space-->
+    <!--android:layout_width="5dp"-->
+    <!--android:layout_height="wrap_content" />-->
+</LinearLayout>

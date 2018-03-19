@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-large-land-v4/values-large-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/eb2c385dd203a257c56e317b355da8245fe1330f/output/res/values-large-land-v4/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 47,
+                        "endOffset": 223
+                    }
+                }
+            }
+        ]
+    }
+]

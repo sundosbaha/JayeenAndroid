@@ -1,0 +1,173 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_feedback_view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_margin">
+
+            <com.jayeen.customer.utils.NplusTextview
+                android:id="@+id/tvTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/feedback_padding"
+                app:drawableTopCompat="@drawable/clock"
+                android:gravity="center"
+                android:text=""
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray"
+                android:alpha="0.5">
+            </LinearLayout>
+
+            <com.jayeen.customer.utils.NplusTextview
+                android:id="@+id/tvDistance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/feedback_padding"
+                app:drawableTopCompat="@drawable/mile"
+                android:gravity="center"
+                android:text=""
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray"
+                android:alpha="0.5">
+            </LinearLayout>
+
+            <com.jayeen.customer.component.MyFontTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/feedback_padding"
+                android:drawableTop="@drawable/task_1"
+                android:gravity="center"
+                android:text="Task 1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray"
+                android:alpha="0.5">
+            </LinearLayout>
+
+            <com.jayeen.customer.component.MyFontTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/feedback_padding"
+                android:drawableTop="@drawable/task_2"
+                android:gravity="center"
+                android:text="Task 2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:alpha="0.5">
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                >
+
+                <com.jayeen.customer.component.MyFontButton
+                    android:id="@+id/btnshare"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/text_share"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white" />
+
+                <com.jayeen.customer.component.MyFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:text="@string/text_comment"
+                    android:textSize="20dp"
+                    android:textColor="@color/color_app_gray"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp" />
+
+
+            </RelativeLayout>
+
+            <com.jayeen.customer.component.MyFontEdittextView
+                android:id="@+id/etComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/feedback_margin_two"
+                android:layout_marginRight="@dimen/feedback_margin_two"
+                android:layout_marginTop="@dimen/feedback_margin_three"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/text_comment"
+                android:lines="4"
+                android:maxLines="4"
+                android:minLines="4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_app_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+
+            <com.jayeen.customer.component.MyFontButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bg_name_height"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_submit"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

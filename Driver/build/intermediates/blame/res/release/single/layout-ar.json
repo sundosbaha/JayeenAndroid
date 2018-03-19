@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/history_item.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/history_item.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_forgetpassword.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_forgetpassword.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/popup_notification_window.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/popup_notification_window.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/menu_drawer.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/menu_drawer.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/logout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/logout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/drawer_item.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/drawer_item.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_main.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_main.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/provider_approve_dialog.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/provider_approve_dialog.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/dialog_withdrawal.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/dialog_withdrawal.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/bill_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/bill_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/activity_profile.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/activity_profile.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/activity_sidemenu_discript.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/activity_sidemenu_discript.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/progressbar.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/progressbar.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/include_detail_view.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/include_detail_view.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/info_window_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/info_window_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_client_requests_new.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_client_requests_new.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/history_date_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/history_date_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/cancel_reason.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/cancel_reason.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_client_requests.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_client_requests.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/cancel_reason_trip.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/cancel_reason_trip.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/item_conutry.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/item_conutry.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/activity_main.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/activity_main.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/activity_map.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/activity_map.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_register.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_register.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/dialog_progress.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/dialog_progress.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/list_item_type.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/list_item_type.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/activity_history.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/activity_history.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_job.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_job.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_feedback.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_feedback.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_login.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_login.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/include_feedback_view.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/include_feedback_view.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/exit_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/exit_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_wait_trip.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_wait_trip.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/fragment_instant_job.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/fragment_instant_job.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/activity_setting.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/activity_setting.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-ar/custom_action_bar.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/layout-ar/custom_action_bar.xml"
+    }
+]

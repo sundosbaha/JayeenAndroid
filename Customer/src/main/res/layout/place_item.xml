@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+
+    <ImageView
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_marginStart="5dip"
+        android:src="@drawable/destination_pin" />
+
+    <LinearLayout
+        android:id="@+id/place_lienar"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/place_keyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_Place"
+            android:maxLines="1"
+            android:textColor="@color/newcolor"
+            android:textSize="17dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/place_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="asdfasdff"
+            android:textColor="@color/selectedcircle_color" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/place_heart"
+        android:layout_width="15dip"
+        android:layout_height="15dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="11dip"
+        android:src="@drawable/ic_like" />
+</LinearLayout>

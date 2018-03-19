@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?><!--addded coordinator layout by @kalai-->
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:textDirection="rtl"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <!--changed by kalai line no:106,109-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp">
+
+                <ImageView
+                    android:id="@+id/otptitleimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_launcher"
+
+                    />
+
+                <com.jayeen.customer.component.MyFontTextView
+                    android:id="@+id/opttitleone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/otptitleimage"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_otpmaintitle"
+                    android:textSize="@dimen/dimen_otp_titlenew" />
+                <!--  android:paddingBottom="@dimen/dimen_history_margin_top"-->
+
+                <com.jayeen.customer.component.MyFontTextView
+                    android:id="@+id/opttitlesecond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/opttitleone"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/dimen_history_margin_top"
+                    android:paddingTop="@dimen/dimen_history_margin_top"
+                    android:text="@string/text_otptitlesecond"
+                    android:textColor="@color/black_trans"
+                    android:textSize="14sp" />
+
+                <com.jayeen.customer.component.MyFontEdittextView
+                    android:id="@+id/etOTPCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/opttitlesecond"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/text_enter_otp_code"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/dimen_history_one"
+                    android:paddingRight="@dimen/dimen_history_one"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <LinearLayout
+                    android:id="@+id/llErrorMsgotp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/etOTPCode"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/popup_margin_text"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <com.jayeen.customer.component.MyFontPopUpTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Invalid OTP code.Please try again"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/font_size_popup" />
+                    <!--   android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+                </LinearLayout>
+
+
+                <!-- android:background="@drawable/bg_btn_small"-->
+                <!--changed to-->
+                <!-- android:layout_height="@dimen/bg_name_height"-->
+                <!--  android:background="@color/colorPrimary"-->
+
+                <com.jayeen.customer.component.MyFontButton
+                    android:id="@+id/btnotpSubmit"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/bg_name_height"
+                    android:layout_below="@+id/llErrorMsgotp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/text_submit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_popup_big" />
+
+                <TextView
+                    android:id="@+id/btnresendotp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnotpSubmit"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/text_resendotp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_popup_big"
+                    android:visibility="visible"
+
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="30dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/btnedituserno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/text_otpedit"
+                    android:textSize="@dimen/font_size_popup_big"
+                    android:visibility="visible"
+
+                    />
+                <!--    android:drawableRight="@drawable/nav_about"
+                    android:drawablePadding="20dp" -->
+                <!-- <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/nav_about"
+                     android:layout_toRightOf="@+id/btnedituserno"
+                     />-->
+
+
+            </RelativeLayout>
+
+            <!--<com.taxicad.taxinow.taxiclient.component.MyFontButton
+                android:id="@+id/btnresendotp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_resendotp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/resendotptext"
+                android:textSize="@dimen/font_size_popup_big"
+                android:visibility="visible"
+                />-->
+            <!-- <com.taxicad.taxinow.taxiclient.component.MyFontPopUpTextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                 android:text="Invalid OTP code. Please try again."
+                 android:textColor="@color/red"
+                 android:layout_below="@+id/otptitleimage"
+                 android:id="@+id/opttitleone"
+                 android:layout_marginTop="20dp"
+                 android:textSize="@dimen/dimen_invoice_baseprice" />-->
+
+            <!--  <com.taxicad.taxinow.taxiclient.component.MyFontPopUpTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                  android:text="Invalid OTP code. Please try again."
+                  android:textColor="@color/red"
+                  android:layout_below="@+id/opttitleone"
+                  android:layout_marginTop="20dp"
+                  android:textSize="@dimen/font_size_popup_big" />-->
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

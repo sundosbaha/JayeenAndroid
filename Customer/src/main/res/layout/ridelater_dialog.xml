@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_bg"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/text_select_journey"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/linearcalendar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtselectDate"
+                android:layout_width="175dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:hint="@string/text_choose_date"
+                android:singleLine="true"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/ib_date_picker"
+                android:tint="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/txtselectDate"
+                android:background="@color/white"
+                app:srcCompat="@drawable/calendar_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineartimeslot"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearcalendar"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtselectTime"
+                android:layout_width="175dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:hint="@string/text_choose_time"
+                android:singleLine="true"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/ib_time_picker"
+                android:tint="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/txtselectTime"
+                android:background="@color/white"
+                app:srcCompat="@drawable/clock" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lineartimeslot"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/text_note_schedule"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+        <com.jayeen.customer.component.MyFontButton
+            android:id="@+id/btnCancelRidelater"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginRight="2dp"
+            android:layout_weight="15"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/text_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_popup_big" />
+
+        <com.jayeen.customer.component.MyFontButton
+            android:id="@+id/btnSendRidelater"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="15"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/text_request"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_popup_big" />
+    </LinearLayout>
+
+</LinearLayout>

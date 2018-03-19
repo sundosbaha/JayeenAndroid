@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16.0dip" >
+
+    <ImageButton
+        android:id="@+id/ivMenuImage"
+        android:layout_width="@dimen/menu_item_size"
+        android:layout_height="@dimen/menu_item_size"
+        android:background="@null"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerInside"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@drawable/clock"/>
+
+    <com.jayeen.customer.component.MyFontPopUpTextView
+        android:id="@+id/tvMenuItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dip"
+        android:text="Large Text"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/drawer_font_size"
+        android:textStyle="bold" />
+
+</LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>

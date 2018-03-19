@@ -1,0 +1,382 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/user_actionbar.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/user_actionbar.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_divider_line.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/nav_divider_line.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__creditcard_discover.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ub__creditcard_discover.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/cash_selected.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/cash_selected.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/calendar_dark.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/calendar_dark.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__nav_history.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ub__nav_history.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/task_1.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/task_1.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_share.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/nav_share.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/clock_dark.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/clock_dark.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/notification_box.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/notification_box.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/bg_profile.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/bg_profile.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/downarrow.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/downarrow.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/default_driver.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/default_driver.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/menu.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/menu.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/default_user.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/default_user.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/popup.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/popup.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/clock.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/clock.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/fill_star.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/fill_star.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/or.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/or.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/history_header_line_green.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/history_header_line_green.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_location.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ic_location.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/rate_star.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/rate_star.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/creditcard.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/creditcard.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/back.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/back.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_payment_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ic_payment_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/star_feedback_blank.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/star_feedback_blank.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/cash.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/cash.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/bg_white_process.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/bg_white_process.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/cancel_trip.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/cancel_trip.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__nav_history_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ub__nav_history_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_edit_btn.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ic_edit_btn.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/pin_client_org.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/pin_client_org.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/history_header_line_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/history_header_line_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/bg_edittext_payment_small.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/bg_edittext_payment_small.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/cover_image.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/cover_image.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__nav_logout.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ub__nav_logout.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/mile.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/mile.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/number_plate.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/number_plate.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/close_button.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/close_button.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/destination_pin.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/destination_pin.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__creditcard_amex.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ub__creditcard_amex.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_wallet_selected.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ic_wallet_selected.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/taxi_car.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/taxi_car.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_wallet.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ic_wallet.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/bill_paper.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/bill_paper.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/sos_red.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/sos_red.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/info.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/info.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/add_credit.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/add_credit.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/fare_info.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/fare_info.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/pin_detail_bg.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/pin_detail_bg.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/app_name.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/app_name.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_profile_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/nav_profile_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/notification_box_arrived.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/notification_box_arrived.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/icon_language_change.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/icon_language_change.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/promotion.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/promotion.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/taxi.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/taxi.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/downarrow_.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/downarrow_.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/pin_driver.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/pin_driver.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/bg_edittext.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/bg_edittext.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/scan_payment.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/scan_payment.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/star_feedback.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/star_feedback.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/call.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/call.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/share_ic.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/share_ic.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_profile.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/nav_profile.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_like.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ic_like.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_doublearrow.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ic_doublearrow.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/pushicon.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/pushicon.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/search_icon.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/search_icon.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/sos_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/sos_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/car.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/car.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/calendar_icon.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/calendar_icon.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/new_pin.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/new_pin.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/big_popup.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/big_popup.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/no_items.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/no_items.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_support.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/nav_support.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_referral.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/nav_referral.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/downarrow_drop.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/downarrow_drop.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__creditcard_visa.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ub__creditcard_visa.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/right_ic.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/right_ic.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__creditcard_mastercard.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ub__creditcard_mastercard.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_payment.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/nav_payment.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/creditcard_selected.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/creditcard_selected.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__button_centerlocation_pressed.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ub__button_centerlocation_pressed.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/task_2.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/task_2.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ub__button_centerlocation_normal.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ub__button_centerlocation_normal.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_wallet_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/ic_wallet_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/ic_unlike.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/ic_unlike.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/img_attention.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/img_attention.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/blank_star.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/blank_star.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/checkbox.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/checkbox.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/nav_referral_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/nav_referral_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/promotion_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/generated/res/pngs/release/drawable-xhdpi/promotion_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/selected_service.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/selected_service.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/drawable-xhdpi/bg_bill.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/drawable-xhdpi/bg_bill.png"
+    }
+]

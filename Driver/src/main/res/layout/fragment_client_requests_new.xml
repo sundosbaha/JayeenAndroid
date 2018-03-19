@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_back_color">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/clientReqMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <!--
+    <RelativeLayout
+        android:id="@+id/rlClientReqTimeLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/pbClientReqTime"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:minHeight="20dp"
+            android:progress="10"
+            android:progressDrawable="@drawable/customprogress" />
+
+        <com.automated.taxinow.driver.widget.MyFontTextView
+            android:id="@+id/tvClentReqRemainTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+        -->
+
+        <RelativeLayout
+            android:id="@+id/relMap"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+
+            <ImageButton
+                android:id="@+id/btnMyLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/margin_bottom_location_icon"
+                android:background="@null"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/ub_button_mylocation" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearOffline"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/app_back_color"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:background="@null"
+                android:src="@drawable/app_name" />
+
+            <TextView
+                android:id="@+id/tvOffline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivAppName"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:text="@string/text_go_online_to"
+                android:textSize="@dimen/ub_textsize_big" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.jayeen.driver.widget.MyFontButton
+        android:id="@+id/btnClientReqRemainTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_count"
+        android:gravity="center"
+        android:text="58"
+        android:textColor="@color/color_blue"
+        android:textSize="42sp"
+        android:visibility="gone" />
+
+    <com.jayeen.driver.widget.MyFontButton
+        android:id="@+id/btnOffline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bg_name_height"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector_primary"
+        android:gravity="center"
+        android:text="@string/text_go_offline"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/llAcceptReject"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#212121"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/lay_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp">-->
+
+            <!--&lt;!&ndash;<com.jayeen.driver.component.CircularMusicProgressBar&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/album_art"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="200dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:border_color="#FFFFFF"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:border_width="6dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:centercircle_diammterer="1.97"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:progress_color="#EA352B"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:progress_startAngle="270" />&ndash;&gt;-->
+            <com.jayeen.driver.component.CircularMusicProgressBar
+                android:id="@+id/album_art"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                app:border_color="@color/white"
+                app:border_width="2dp"
+                app:centercircle_diammterer=".97"
+                app:progress_color="@color/color_text_menu"
+                app:progress_startAngle="270" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/lay_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvClientName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colortext" />
+
+                <RatingBar
+                    android:id="@+id/rtbProductRating"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:rating="4.5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/f_time_estimate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="2 min Away"
+                android:textColor="@color/colortext"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/text_pickupaddr"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.5"
+                    android:gravity="center"
+                    android:maxLines="4"
+                    android:textColor="@color/colortext" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_dropaddr"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.5"
+                    android:gravity="center"
+                    android:maxLines="4"
+                    android:textColor="@color/colortext" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#616161"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:visibility="gone"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Price"
+                    android:textColor="@color/colortext" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="JOD  100"
+                    android:textColor="@color/colortext" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/btnClientAccept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@drawable/left_corner"
+                    android:text="Accept"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnClientReject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@drawable/right_corner"
+                    android:text="Reject"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!--</RelativeLayout>-->

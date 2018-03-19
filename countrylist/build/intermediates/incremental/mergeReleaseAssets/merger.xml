@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/src/main/assets"><file name="countries.dat" path="/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/src/main/assets/countries.dat"/></source><source path="/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/src/release/assets"/></dataSet></merger>

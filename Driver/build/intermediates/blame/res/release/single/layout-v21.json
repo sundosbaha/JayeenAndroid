@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/root/.android/build-cache/b1e6d78ec1f03779f1040fa42e8b3d37e2d806fa/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/b1e6d78ec1f03779f1040fa42e8b3d37e2d806fa/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/root/.android/build-cache/b1e6d78ec1f03779f1040fa42e8b3d37e2d806fa/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/b1e6d78ec1f03779f1040fa42e8b3d37e2d806fa/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

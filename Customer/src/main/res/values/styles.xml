@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:ratingBarStyle">@style/customRatingBar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">@dimen/rating_max_height</item>
+        <item name="android:indeterminateDrawable">@drawable/ub__star</item>
+        <item name="android:progressDrawable">@drawable/ub__star</item>
+        <item name="android:minHeight">@dimen/rating_min_height</item>
+    </style>
+
+    <style name="feedbackRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">@dimen/feedback_rating_max_height</item>
+        <item name="android:indeterminateDrawable">@drawable/ub_star_feedback</item>
+        <item name="android:progressDrawable">@drawable/ub_star_feedback</item>
+        <item name="android:minHeight">@dimen/feedback_rating_min_height</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/FadeDialogAnimation</item>
+        <!--<item name="android:background">@color/transparent</item>-->
+    </style>
+
+    <style name="FadeDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="CustomSeekBar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/custom_seek_bar</item>
+        <item name="android:minHeight">@dimen/feedback_padding</item>
+        <item name="android:maxHeight">@dimen/dimen_history_margin_left</item>
+    </style>
+
+    <style name="btn_sosconfirm_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/gradient_sosinfo_btn</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    <!--<style name="mydialog" parent="@android:style/Theme.Holo.Light.Dialog"/>-->
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/color_hint_light</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="Raised.Button.red" parent="android:style/Widget.Material.Button">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="Raised.Button.gray" parent="android:style/Widget.Material.Button">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+</resources>

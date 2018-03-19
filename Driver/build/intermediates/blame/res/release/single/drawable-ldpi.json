@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/blank_star.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/blank_star.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/bg_profile.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/bg_profile.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/cover_image.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/cover_image.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/cancel_trip.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/cancel_trip.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/pin_client_destination.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/pin_client_destination.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ic_launcher.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/bg_bill.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/bg_bill.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/fill_star.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/fill_star.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/clock.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/clock.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ic_music.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/ic_music.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/promotion_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/promotion_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/icon_language.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/icon_language.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/bill_paper.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/bill_paper.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ic_wallet.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/ic_wallet.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/instant_trip_icon.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/instant_trip_icon.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/info.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/info.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/menu.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/menu.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/no_items.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/no_items.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/call_user.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/call_user.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/taxi.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/taxi.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/miles.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/miles.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/popup.9.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/popup.9.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/app_name.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/app_name.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/share_ic.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/share_ic.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ub__nav_history_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/ub__nav_history_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/pin_driver.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/pin_driver.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ub__button_centerlocation_pressed.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/ub__button_centerlocation_pressed.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/pin_detail_bg.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/pin_detail_bg.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/back.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/back.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/star_feedback_blank.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/star_feedback_blank.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/selected_service.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/selected_service.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ic_wallet_colored.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/ic_wallet_colored.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ub__nav_history.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/ub__nav_history.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/promotion.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/promotion.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/user.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/user.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/payment.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/payment.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/user_edit.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/user_edit.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/pin_client.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/pin_client.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/nav_profile_white.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/nav_profile_white.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/pushicon.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/pushicon.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ub__nav_logout.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/ub__nav_logout.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/nav_profile.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/generated/res/pngs/release/drawable-ldpi/nav_profile.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/ub__button_centerlocation_normal.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/ub__button_centerlocation_normal.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/bg_edittext.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/bg_edittext.png"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/drawable-ldpi/star_feedback.png",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/drawable-ldpi/star_feedback.png"
+    }
+]

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--addded coordinator layout by @kalai-->
+<android.support.design.widget.CoordinatorLayout android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:id="@+id/layoutMarker"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="145dp"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/myCustomMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:srcCompat="@drawable/pin_client_org"
+        android:visibility="visible"></ImageView>
+
+    <ImageView
+        android:id="@+id/Img_xmark"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-5dp"
+        android:alpha="0.5"
+        android:src="@drawable/ic_xmark"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+
+
+</LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>

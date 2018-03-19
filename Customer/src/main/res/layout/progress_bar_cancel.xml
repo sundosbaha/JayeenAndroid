@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/white_trans"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <!--<include-->
+    <!--android:id="@+id/includeDriver"-->
+    <!--layout="@layout/include_detail_view"-->
+    <!--android:visibility="gone" />-->
+    <LinearLayout
+        android:id="@+id/driver_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/progress_walker_layout"
+            layout="@layout/include_detail_view" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <me.wangyuwei.loadingview.LoadingView
+            android:id="@+id/ivProgressBar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:lv_duration="10"
+            app:lv_end_color="#364757"
+            app:lv_external_radius="92dp"
+            app:lv_internal_radius="5dp"
+            app:lv_start_color="@color/colorPrimary" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ivProgressBar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/loading"-->
+        <!--android:visibility="visible" >-->
+        <!--</ImageView>-->
+
+        <!--<ProgressBar-->
+        <!--android:id="@+id/ivProgressBar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:startColor="@color/red"-->
+        <!--android:indeterminate="true" />-->
+
+        <com.jayeen.customer.component.MyTitleFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:text="@string/text_waiting_for_confirm"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <com.jayeen.customer.component.MyFontButton
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/text_cancel"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+</LinearLayout>

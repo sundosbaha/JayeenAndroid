@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--addded coordinator layout by @kalai-->
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_emergency_call"
+        android:id="@+id/bookconfirmtext"
+        android:textColor="#016ec3"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        />
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/bookconfirmtext"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#006ec3" />
+    <TextView
+        android:id="@+id/confirmtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sosdialoginfo"
+        android:layout_below="@+id/view1"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:weightSum="2"
+        android:layout_below="@+id/confirmtext1"
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:text="@string/text_cancel"
+            android:textColor="@color/black"
+            android:id="@+id/sosconfirmclosebtn"
+            style="@style/btn_sosconfirm_style"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:text="@string/text_call"
+            android:id="@+id/sosconfirmcallbtn"
+            android:textColor="@color/black"
+            style="@style/btn_sosconfirm_style"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--addded coordinator layout by @kalai-->
+<!--line 94,97,109,111 convert form image to color  @kalai-->
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_margin_register" >
+
+
+    <com.jayeen.customer.component.MyFontPopUpTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/text_promo_code"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color_text" />
+
+    <com.jayeen.customer.component.MyFontPopUpTextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/activity_margin_register"
+        android:background="@color/color_text" />
+
+<!--changed meterial design 29/08/2016 @kalai-->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_enter_promo_code">
+    <com.jayeen.customer.component.MyFontEdittextView
+        android:id="@+id/etPromoCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_edittext"
+
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/dimen_history_one"
+        android:paddingRight="@dimen/dimen_history_one"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:id="@+id/llErrorMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_margin_feedback"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/ivPromoResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/img_promo_result" />
+
+        <com.jayeen.customer.component.MyFontPopUpTextView
+            android:id="@+id/tvPromoResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/err_referral_invalid"
+            android:textColor="@drawable/color_promo_result"
+            android:textSize="@dimen/dimen_invoice_baseprice" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="4dp"
+        android:weightSum="31"
+        android:orientation="horizontal" >
+<!-- android:background="@drawable/bg_btn_small"-->
+        <!--change to-->
+        <!-- android:background="@color/colorPrimary"-->
+        <!--  android:layout_height="@dimen/bg_name_height"-->
+        <com.jayeen.customer.component.MyFontButton
+            android:id="@+id/btnPromoSkip"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bg_name_height"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="15.2"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/text_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_popup_big" />
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"/>
+<!-- android:background="@drawable/bg_btn_small"-->
+        <!--change to-->
+        <!-- android:background="@color/colorPrimary"-->
+        <!-- android:layout_height="@dimen/bg_name_height"-->
+        <com.jayeen.customer.component.MyFontButton
+            android:id="@+id/btnPromoSubmit"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bg_name_height"
+            android:layout_weight="15.2"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/text_apply"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_popup_big" />
+    </LinearLayout>
+
+</LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/root/.android/build-cache/379fcea6906a4a5356f73b5123279e7dfc23e42f/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-sw600dp-v13/date_picker_dialog.xml",
+        "source": "/root/.android/build-cache/2f23d615387960ab37c3d4b25df85f567bc81ef7/output/res/layout-sw600dp/date_picker_dialog.xml"
+    }
+]

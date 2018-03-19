@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--addded coordinator layout by @kalai-->
+<!--line 73,74 convert form image to color  @kalai-->
+
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_fp_margin"
+        android:layout_marginRight="@dimen/dimen_fp_margin"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <com.jayeen.customer.component.MyFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/text_forgot_password"
+            android:textColor="@color/color_app_gray"
+            android:textSize="@dimen/fp_font_size" />
+
+        <!--changed meterial design 29/08/2016 @kalai-->
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textDirection="rtl"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_email">
+
+        <com.jayeen.customer.component.MyFontEdittextView
+            android:id="@+id/etForgetEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/dimen_fp_margin_top"
+            android:background="@drawable/bg_edittext"
+            android:textDirection="rtl"
+            android:layoutDirection="rtl"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_app_gray" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true" >
+
+        <!-- android:background="@drawable/btn_pickup"-->
+        <!--changed  to-->
+        <!--android:layout_height="@dimen/bg_name_height"
+            android:background="@color/colorPrimary"-->
+        <com.jayeen.customer.component.MyFontButton
+            android:id="@+id/tvForgetSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bg_name_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/text_submit"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>

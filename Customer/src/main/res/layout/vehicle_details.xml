@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/feedback_margin_three"
+        android:layout_marginTop="@dimen/feedback_margin_three"
+        android:orientation="vertical">
+
+        <com.jayeen.customer.component.MyFontTextView
+            android:id="@+id/tvLblMinFare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_min_fare"
+            android:textColor="@color/gray" />
+
+        <ProgressBar
+            android:id="@+id/pbMinFare"
+            style="?android:attr/android:progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_padding"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <com.jayeen.customer.component.MyFontTextView
+            android:id="@+id/tvMinFare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_padding"
+            android:gravity="center"
+            android:text="$30"
+            android:textColor="@color/black" />
+
+        <com.jayeen.customer.component.MyFontTextView
+            android:id="@+id/tvTotalFare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="R30"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_feedback_text"
+            android:visibility="gone" />
+
+        <com.jayeen.customer.component.MyFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin_register"
+            android:gravity="center"
+            android:padding="@dimen/activity_margin_register"
+            android:text="@string/text_estimate_fare"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/feedback_margin_three"
+            android:layout_marginTop="@dimen/feedback_margin_three"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--<android.support.v4.widget.Space-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="4"/>-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:tint="@color/colorPrimary"
+                    app:srcCompat="@drawable/ub__nav_history" />
+
+                <com.jayeen.customer.component.MyFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="60dp"
+                    android:gravity="center"
+                    android:text="@string/text_eta"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+
+            <com.jayeen.customer.component.MyFontTextView
+                android:id="@+id/tvETA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="@dimen/feedback_padding"
+                android:gravity="center"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/feedback_margin_three"
+            android:layout_marginTop="@dimen/feedback_margin_three"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:tint="@color/colorPrimary"
+                    app:srcCompat="@drawable/user_actionbar" />
+
+                <com.jayeen.customer.component.MyFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:text="@string/text_max_size"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+
+            <com.jayeen.customer.component.MyFontTextView
+                android:id="@+id/tvMaxSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/feedback_padding"
+                android:gravity="center"
+                android:text="5 PERSON"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+
+        <com.jayeen.customer.component.MyFontPopUpTextView
+            android:id="@+id/tvGetFareEst"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:maxLines="2"
+            android:padding="@dimen/activity_margin_register"
+            android:text="@string/text_get_fare_estimate"
+            android:textColor="@color/white" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.jayeen.customer.component.MyFontPopUpTextView
+            android:id="@+id/tvRateCard"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bg_name_height"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="13"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/activity_margin_register"
+            android:text="@string/text_rate_card"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

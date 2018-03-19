@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">Jayeen</string>
+    <string name="action_settings">Réglages</string>
+    <string name="text_fname">PRENOM</string>
+    <string name="text_lname">NOM</string>
+    <string name="text_email">EMAIL</string>
+    <string name="text_number">numéro</string>
+    <string name="text_passs">Mot de passe</string>
+    <string name="text_current_pass">MOT DE PASSE ACTUEL</string>
+    <string name="text_new_pass">NOUVEAU MOT DE PASSE</string>
+    <string name="text_select_cancel">Entrez la raison du rejet</string>
+    <string name="text_edit_hintval">Enterz</string>
+    <string name="text_reject_stringval">Veuillez Entrez la raison du rejet</string>
+    <string name="text_retype_pass">CONFIRMEZ LE NOUVEAU MOT DE PASSE</string>
+    <string name="text_address">Adresse</string>
+    <string name="text_bio">Expérience</string>
+    <string name="text_zip">Code postal</string>
+    <string name="text_signin">SE CONNECTER</string>
+    <string name="text_comment">Commentaire</string>
+    <string name="text_register">ENREGISTRER</string>
+    <string name="text_forget_password">MOT DE PASSE OUBLIE</string>
+    <string name="text_submit">SOUMETTRE</string>
+    <string name="text_forgetpass">MOT DE PASSE OUBLIE?</string>
+    <string name="text_cancel">ANNULER</string>
+    <string name="text_getting_info_facebook">Obtention d\'information de Facebook</string>
+    <string name="drawer_open">Ouvrir le Navigation Drawer</string>
+    <string name="drawer_close">Fermer le Navigation Drawer</string>
+    <string name="my_location">Ma Localisation</string>
+    <string name="client_location">EMPLACEMENT DU CLIENT</string>
+    <string name="client_destination">Destination du client</string>
+    <string name="job_start_location">EMPLACEMENT DE VOYAGE</string>
+    <string name="text_miles">KM</string>
+    <string name="text_mins">MIN</string>
+    <string name="text_profile">Profil</string>
+    <string name="text_history">Historique</string>
+    <string name="text_setting">Réglages</string>
+    <string name="text_sound">Son</string>
+    <string name="text_logout">Déconnexion</string>
+    <string name="text_invoice">FACTURE</string>
+    <string name="text_base_price">TARIF MINIMUM</string>
+    <string name="text_referral_bonus">Bonus de recommandation</string>
+    <string name="access_denied_during_trip">Accès refusé pendant le voyage</string>
+    <string name="text_promo_bonus">Code promotionnel</string>
+    <string name="text_distance_cost">COUT DISTANCE</string>
+    <string name="text_destination">Destination du client</string>
+    <string name="text_time_cost">COUT AU TEMPS</string>
+    <string name="text_total">TOTAL</string>
+    <string name="text_close">FERMER</string>
+    <string name="text_cost_per_mile">JOD  Par km</string>
+    <string name="text_cost_per_hour">JOD  Par min</string>
+    <string name="text_taxi_model">TAXI MODÈLE</string>
+    <string name="text_taxi_number">NUMERO D\'ENREGISTREMENT</string>
+    <string name="text_approve">Votre application est en cours de traitement. Vous recevrez un email de confirmation quand l\'administrateur aura approuvé votre inscription..</string>
+    <string name="text_regemail_popup">Please verify your e-mail address, you will not be able to modify it in future.</string>
+    <string name="text_regmodelno_popup">Veuillez verifier le modèle de votre véhicule, vous ne pourrez pas le modifier dans le futur..</string>
+    <string name="text_regtaxino_popup">Veuillez vérifier votre numéro de License professionnelle, vous ne pourrez pas le modifier dans le futur..</string>
+    <string name="text_profile_popup">This field is not editable.</string>
+    <string name="text_confirm">CONFIRMEZ </string>
+    <string name="spinner_title">Sélectionnez la raison</string>
+    <string name="text_noaddress_title">Pas d\'adresse valide</string>
+
+    <string name="text_exit_ok">OK</string>
+
+    <!-- facebook app id -->
+    <!-- drawer array items -->
+    <!--<string name="gcm_defaultSenderId">425984966652</string>-->
+    <!--<string name="gcm_defaultSenderId">26826409845</string>-->
+    <string name="gcm_defaultSenderId">276090070126</string>
+    <!-- client request -->
+    <string name="text_accept">ACCEPTEZ</string>
+    <string name="text_go_online_to">Allez en ligne pour recevoir des voyages</string>
+    <string name="text_reject">REJETER</string>
+    <string name="text_go_offline">Se déconnecter</string>
+    <string name="text_go_online">Aller en ligne</string>
+    <!-- payment dialog -->
+    <!-- Job Details -->
+
+    <string name="text_call">APPEL</string>
+    <string name="text_walker_started">
+TAP QUAND COMMENCER</string>
+    <string name="text_walker_arrived">TAP QUAND ARRIVÉ</string>
+    <string name="text_walk_started">DÉBUT DE VOYAGE
+</string>
+    <string name="text_walk_completed">FIN DE VOYAGE</string>
+    <!-- job done -->
+    <!-- feedback -->
+    <string name="text_empty_rating">
+Veuillez donner votre note au client.</string>
+    <!-- profile -->
+    <string name="text_edit_profile">MODIFIER LE PROFIL</string>
+    <string name="text_update_profile">METTRE A JOUR LE PROFIL</string> <!-- validations -->
+    <string name="error_valid_email">Veuillez entrer une adresse email valide</string>
+    <string name="error_empty_email">Veuillez entrer votre adresse email</string>
+    <string name="error_empty_password">Le mot de passe ne doit pas etre vide</string>
+    <string name="error_empty_retypepassword">Veuillez confirmer votre nouveau mot de passe</string>
+    <string name="error_valid_password">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="error_mismatch_password">La confirmation du nouveau mot de passe ne correspond pas à votre nouveau mot de passe</string>
+    <string name="error_empty_fname">Veuillez entrer le prénom</string>
+    <string name="error_empty_lname">Veuillez entrer le nom</string>
+    <string name="error_empty_number">Veuillez entrer le numéro de téléphone</string>
+    <string name="error_empty_reg_password">Veuillez entrer votre mot de passe</string>
+    <string name="error_empty_type">Veuillez sélectionner le modèle de véhicule</string>
+    <string name="error_empty_model">Veuillez entrer le modèle du taxi
+</string>
+    <string name="error_empty_taxi_no">Veuillez entrer le numéro du taxi</string> <!-- GCM -->
+    <string name="register_gcm_failed">
+Échec de l\'inscription à GCM</string>
+    <!-- logout -->
+    <string name="dialog_logout">Déconnexion</string>
+    <string name="dialog_logout_text">Etes vous sur de vouloir vous déconnecter?</string>
+
+    <!-- Exit -->
+    <string name="dialog_exit_caps">SORTIE</string>
+    <string name="dialog_exit_text">Etes vous sur de vouloir sortir??</string>
+
+    <!-- toast -->
+    <string name="toast_no_internet">Aucune connexion réseau</string>
+    <string name="toast_register_success">
+Merci pour votre inscription, veuillez patienter pendant que l administrateur approuve votre demande</string>
+
+    <string name="toast_unable_to_selct_image">Impossible de sélectionner l\'image</string>
+    <string name="toast_feedback_success">Commentaires reçus avec succès</string>
+    <string name="toast_time_over">Votre temps est écoulé pour répondre à la demande</string>
+    <string name="toast_number_not_found">Nombre non trouvé
+</string>
+    <string name="toast_update_profile_success">Mise à jour effectuée</string>
+    <string name="toast_forget_password_success">Votre mot de passe vous a été envoyé sur votre adresse email enregistrée </string>
+    <!-- dialog -->
+    <string name="dialog_chhose_photo">CHOISISSEZ LA PHOTO</string>
+    <string name="dialog_from_gallery">GALLERIE</string>
+    <string name="dialog_from_camera">CAMÉRA</string>
+    <string name="dialog_no_internet">Aucune connexion réseau</string>
+    <string name="dialog_no_gps">Pas de GPS</string>
+    <string name="dialog_no_inter_message">Vous n\'avez pas de connexion internet active.</string>
+    <string name="dialog_no_gps_messgae">Seems like you have not started your location service.</string>
+    <string name="dialog_enable_gps">Activer le GPS</string>
+    <string name="dialog_enable_3g">Activer le 3G/4G</string>
+    <string name="dialog_enable_wifi">Activer le WiFi</string>
+    <string name="dialog_exit">SORTIE</string>
+    <!-- progress dialog -->
+    <string name="progress_dialog_sign_in">Se connecter</string>
+    <string name="progress_dialog_register">ENREGISTREMENT</string>
+    <string name="progress_dialog_request">OBTENIR DES DEMANDES</string>
+    <string name="progress_dialog_loading">CHARGEMENT</string>
+    <string name="progress_rating">NOTATION DU SERVICE</string>
+    <string name="progress_respond_request">RÉPONDRE AUX DEMANDES</string>
+    <string name="progress_send_request">DEMANDE D\'ENVOI</string>
+    <string name="progress_loading">CHARGEMENT</string>
+    <string name="progress_update_profile">MISE À JOUR DU PROFIL</string>
+    <string name="progress_getting_types">OBTENIR DES TYPES</string>
+    <string name="progress_getting_history">Obtention de l\'historique</string>
+    <string name="progress_acc_info">RENSEIGNEMENTS SUR LE COMPTE</string>
+    <string name="progress_getting_avaibility">GETTING AVAIBILITY</string>
+    <string name="progress_changing_avaibilty">CHANGING AVAIBILITY</string>
+    <!-- location -->
+    <string name="connection_error_disabled">Google Play est désactivé</string>
+    <string name="connection_error_internal">Une erreur interne a eu lieu</string>
+    <string name="connection_error_invalid">La version de Google Play sur cet appareil n\'est pas authentique</string>
+    <string name="connection_error_invalid_account">Le nom de compte spécifié est incorrect</string>
+    <string name="connection_error_license_check_failed">L\'application n\'est pas autorisée par l\'utilisateur</string>
+    <string name="connection_error_misconfigured">L\'application est mal configurée</string>
+    <string name="connection_error_missing">Le service Google Play est manquant</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">Une erreur de réseau s\'est produite</string>
+    <string name="connection_error_outdated">Le service Google Play n\'est pas à jour</string>
+    <string name="connection_error_sign_in_required">L\'utilisateur n\'est pas connecté</string>
+    <string name="connection_error_unknown">Une erreur inconnue s\'est produite</string>
+    <!-- error code -->
+    <string name="error_401">Données invalides</string>
+    <string name="error_402">Cet email est déjà enregistré</string>
+    <string name="error_403">Nom d\'utilisateur et/ou mot de passe invalide</string>
+    <string name="error_404">Utilisateur non enregistré</string>
+    <string name="error_405">Token est expiré</string>
+    <string name="error_406">L\'identification du Token est invalide</string>
+    <string name="error_407">Walk ID ne correspond pas à DOG ID</string>
+    <string name="error_408">Walk ID inconnue</string>
+    <string name="error_409">Déjà noté</string>
+    <string name="error_410">Identification Propriétaire inconnu</string>
+    <string name="error_411">Token ID et réservation ID ne correspondent pas</string>
+    <string name="error_412">Réservation ID inconnue</string>
+    <string name="error_413">Course non confirmée</string>
+    <string name="error_414">Course non débutée</string>
+    <string name="error_415">Course non complétée</string>
+    <string name="error_416">Course commencée</string>
+    <string name="error_417">Appareil ou identification de l\'appareil ou identification personnelle incompatible</string> <!-- dialog -->
+
+    <string name="dialog_no_location_service">Please turn on location service from settings, must press on/off toggle and agree to access location and restart an app.\nNote:if you have already did choices with disagree and dont show dialog again then location dialog not show when you press on/off toggle button.to solve this problem you must clear all setting preferences.</string>
+    <string name="dialog_no_location_service_title">Service de localisation non activé.</string>
+    <string name="dialog_enable_location_service">Go to Location Service</string>
+    <string name="text_select_service">CHOISISSEZ VOTRE VÉHICULE</string>
+    <string name="text_register_caps">ENREGISTRER</string>
+    <string name="text_signin_caps">SE CONNECTER</string>
+    <string name="text_forgot_password">Votre mot de passe va être envoyé sur l\'email que vous avez enregistré</string>
+    <!-- Map Key -->
+    <!--<string name="map_api_key">AIzaSyB4J0s4oj5pN3O205RhWDnrSUjaSYrYA0I</string>-->
+    <!--<string name="map_api_key">AIzaSyA8MeWrUesIhdfE2AHN3FnfmkA2vpbQXLs</string>-->
+    <string name="text_yesterday">HIER</string>
+    <string name="text_today">AUJOURD\'HUI</string>
+    <string name="text_feedback">Feedback</string>
+    <string name="text_type_cash">Especes</string>
+    <string name="text_type_card">Carte</string>
+    <string name="text_share_app">Partager l\'App!</string>
+    <string name="text_share">PARTAGER</string>
+    <string name="text_leave">QUITTER</string>
+
+
+    <!--Changing Item below from hardcorded @mukesh 1-9-16-->
+    <string name="text_return_date">Date de retour</string>
+    <string name="text_lunch">REPAS</string>
+    <string name="text_repair">REPARATION</string>
+    <string name="text_ontrip">EN COURSE</string>
+    <string name="text_need_accessPermission">Vous devez accorder l\'accès aux deux autorisations</string>
+    <string name="text_granted_accessPermission">Autorisation accordée, vous avez accès aux données de positionnement</string>
+    <string name="text_denied_accessPermission">Autorisation refusée, vous n\'avez pas accès aux données de positionnement.</string>
+    <string name="text_ok">OK</string>
+    <string name="text_iam_using">J\'utilise</string>
+    <string name="why_not_install_app"> App ! Pourquoi ne pas l\'essayer? Installation </string>
+    <string name="play_link"> Maintenant ! https://play.google.com/store/apps/details?id=</string>
+    <string name="text_app"> App !</string>
+    <string name="costarica_currency">JOD </string>
+    <string name="cancel_request_failed">Echec de l\'annulation de la course.</string>
+    <string name="trip_cancled">Course annulée avec succès</string>
+    <string name="trip_cancled_client">Le passager à annulé sa demande</string>
+    <string name="text_language">Langage</string>
+    <string name="text_make_selection">Faites votre sélection</string>
+    <string name="text_someone_logged_account">someone just logged in to your account</string>
+    <string name="text_playservices_unavailable">Play Services UnAvalilable \n Try Again..</string>
+    <string name="error_contact_server">Erreur lors du contact avec le serveur!</string>
+    <string name="error_something_wrong">Erreur lors du traitement, veuillez réessayer.!</string>
+    <string name="text_instant_Job">Instant Job</string>
+    <string name="text_trips">Vos voyages</string>
+    <string name="test_min_away">min away</string>
+    <string name="text_withdrawl_done">Retrait fait!</string>
+    <string name="text_withdrawal">Retrait</string>
+    <string name="text_enter_amount">Entrer le montant</string>
+    <string name="text_insuff_fund">Insufficient Fund in Account</string>
+    <string name="text_wallet">Portefeuille</string>
+    <string name="text_now_ride_without_cash">Maintenant, vous pouvez rouler sans argent</string>
+    <string name="text_withdraw">Se désister</string>
+    <string name="text_wait">WAIT</string>
+    <string name="text_pause">Pause</string>
+    <string name="text_revoke_permission">Location and Phone State are mandatory permission please allow to access.  Are you sure you want to continue ?</string>
+    <string name="text_continue">Continue</string>
+    <string name="text_permission">Permission</string>
+    <string name="txt_dest_not_available">Désignation non disponible</string>
+</resources>

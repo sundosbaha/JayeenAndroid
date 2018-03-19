@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "276090070126",
+    "firebase_url": "https://jayeentaxi-customer.firebaseio.com",
+    "project_id": "jayeentaxi-customer",
+    "storage_bucket": "jayeentaxi-customer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276090070126:android:c5275c34dba245ec",
+        "android_client_info": {
+          "package_name": "com.jayeen.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276090070126-umm7u5623qjsu5on2179i79j5s72533u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jayeen.customer",
+            "certificate_hash": "968ea70c007896bf2a01d13c92d2a521f79fa3ad"
+          }
+        },
+        {
+          "client_id": "276090070126-rrb2qned54ujrbo4dllvsraed81rr4lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jayeen.customer",
+            "certificate_hash": "efe18fd4ed676d388c4bf440aaec599531f8cd44"
+          }
+        },
+        {
+          "client_id": "276090070126-nahuali1g3503v23bla9vfp4oi5m8gd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jayeen.customer",
+            "certificate_hash": "8841370def27fa60bbadcc923a7d9da8b471686f"
+          }
+        },
+        {
+          "client_id": "276090070126-b959tfe1re7gqfr364kokd2p3lu258g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs5C_DGe-sEj4aLZM7RQf4wFTfIxSZ4Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276090070126-b959tfe1re7gqfr364kokd2p3lu258g0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

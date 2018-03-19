@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/parent"
+    tools:context="com.jayeen.customer.AddLocationDetails">
+
+    
+    <ImageView
+        android:id="@+id/Ac_addLoc_Img"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="250dip" />
+
+   <LinearLayout
+       android:id="@+id/linearone"
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_below="@+id/Ac_addLoc_Img"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:background="@color/color_hint_light"
+           android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:weightSum="5"
+
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/Ac_addLoc_address"
+
+               android:text=""
+               android:layout_weight="5"
+
+               android:layout_width="0dp"
+               android:layout_marginLeft="10dip"
+               android:layout_marginStart="10dip"
+               android:layout_marginTop="8dip"
+               android:textSize="16dip"
+               android:textColor="@color/lite_black"
+               android:layout_height="wrap_content" />
+
+           <ImageView
+               android:id="@+id/Ac_addLoc_heart"
+               android:layout_width="20dip"
+               android:src="@drawable/ic_like"
+               android:layout_marginRight="10dip"
+
+
+               android:layout_marginTop="6dip"
+               android:layout_marginEnd="10dip"
+               android:layout_gravity="center_vertical"
+               android:layout_height="20dip" />
+
+
+
+
+       </LinearLayout>
+
+
+      <!-- <TextView
+
+           android:id="@+id/Ac_addLoc_Nation"
+           android:layout_width="wrap_content"
+           android:layout_marginLeft="10dip"
+           android:layout_marginStart="10dip"
+           android:layout_marginTop="5dip"
+           android:textSize="13dip"
+           android:layout_marginBottom="5dip"
+           android:textColor="@color/lite_black"
+           android:layout_height="wrap_content" />-->
+
+       </LinearLayout>
+   </LinearLayout>
+
+    <EditText
+        android:id="@+id/Ac_addLoc_title"
+        android:layout_below="@+id/linearone"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dip"
+        android:layout_marginEnd="10dip"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_marginLeft="10dip"
+        android:hint="@string/text_NameofLocation"
+        android:layout_marginStart="10dip"
+        android:layout_height="60dip" />
+
+
+
+    <com.jayeen.customer.component.MyFontButton
+        android:id="@+id/Ac_addLoc_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/text_save_loc"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

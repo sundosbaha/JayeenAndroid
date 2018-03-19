@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/raw/countrycodes.json",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/raw/countrycodes.json"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/raw/tokenize_credit_card_mutation.graphql",
+        "source": "/root/.android/build-cache/989d0032177e8220f4d5393bf367ee61148f69ed/output/res/raw/tokenize_credit_card_mutation.graphql"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/raw/beep.mp3",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/raw/beep.mp3"
+    }
+]

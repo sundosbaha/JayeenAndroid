@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/countrylist/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/color-v23/abc_color_highlight_material.xml"
+    }
+]

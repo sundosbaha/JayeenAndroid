@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="11.0dip">
+
+        <ImageButton
+            android:id="@+id/ivMenuImage"
+            android:layout_width="@dimen/menu_item_size"
+            android:layout_height="@dimen/menu_item_size"
+            android:layout_margin="@dimen/activity_margin_register"
+            android:layout_marginLeft="15.0dip"
+            android:background="@null"
+            android:tint="@color/colorPrimary"
+            app:srcCompat="@drawable/clock"
+            android:scaleType="fitXY" />
+
+        <com.jayeen.driver.widget.MyFontTextView
+            android:id="@+id/tvMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="center_vertical"
+            android:text="Large Text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/drawer_font_size" />
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="100"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--&gt;-->
+        <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="80"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_height="0.01dp"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

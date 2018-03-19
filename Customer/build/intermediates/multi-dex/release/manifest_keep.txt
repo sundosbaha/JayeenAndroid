@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:61
+-keep class com.jayeen.customer.CustomerApplication { <init>(...); }
+

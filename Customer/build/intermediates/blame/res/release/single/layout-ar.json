@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_schedulehistory.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_schedulehistory.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/fragment_map.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/fragment_map.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/info_window_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/info_window_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/cancel_reason.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/cancel_reason.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_history_new.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_history_new.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/my_marker.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/my_marker.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/fragment_trip_new.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/fragment_trip_new.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/progress_bar_cancel.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/progress_bar_cancel.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/feedback.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/feedback.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/progressbar.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/progressbar.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/popup_notification_window.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/popup_notification_window.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/fragment_tips_dialog.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/fragment_tips_dialog.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/history_item.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/history_item.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/actionbar_locationview.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/actionbar_locationview.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/fragment_history.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/fragment_history.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/dialog_basic.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/dialog_basic.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/splash.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/splash.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/dialog_rate_card.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/dialog_rate_card.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/ref_code_fragment.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/ref_code_fragment.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/menu_drawer.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/menu_drawer.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/sosdialog_info.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/sosdialog_info.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/popup_notification_status_window.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/popup_notification_status_window.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/error_reason.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/error_reason.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/logout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/logout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/history_date_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/history_date_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/include_feedback_view.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/include_feedback_view.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/menu_desc_activity.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/menu_desc_activity.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_setting.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_setting.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/register_activity.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/register_activity.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/popup_info_window.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/popup_info_window.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/exit_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/exit_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_main.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_main.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/view_payment_list_item.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/view_payment_list_item.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/custom_action_bar.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/custom_action_bar.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/autocomplete_list_text.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/autocomplete_list_text.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/ridesuccess_dialog.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/ridesuccess_dialog.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_view_payment.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_view_payment.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/sos_infolayout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/sos_infolayout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/forget_pass_fragment.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/forget_pass_fragment.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/dialog_referral.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/dialog_referral.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_map.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_map.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/fragment_schedulehistory.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/fragment_schedulehistory.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/payment_option.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/payment_option.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/layout_social_login_feilds.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/layout_social_login_feilds.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/destination_popup.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/destination_popup.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/bill_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/bill_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/include_detail_view.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/include_detail_view.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/otp_code_fragment.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/otp_code_fragment.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/register.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/register.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/history_item_new.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/history_item_new.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/drawer_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/drawer_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/ridelater_dialog.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/ridelater_dialog.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/drawer_item.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/drawer_item.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_profile.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_profile.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/item_layout_schedule.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/item_layout_schedule.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/recycler_view_vehicaltype.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/recycler_view_vehicaltype.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/login.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/login.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/dialog_promo.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/dialog_promo.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/ref_code_layout.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/ref_code_layout.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/vehicle_details.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/vehicle_details.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/layout-ar/activity_history.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/layout-ar/activity_history.xml"
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_click">#80359e00</color>
+    <color name="colorPrimaryDark_click">#80d7c605</color>
+    <color name="colorPrimary_second">#e6d514</color>
+    <color name="colorPrimary">#359e00</color>
+    <color name="colorPrimaryDark">#d7c605</color>
+
+    <color name="colorAccent">#02b177</color>
+    <color name="clr_bg_header">#FFDADADA</color>
+    <color name="newcolor">#707273</color>
+    <color name="white">#ffffffff</color>
+    <color name="trans_white_bill">#ebffffff</color>
+    <color name="trans_bg_feed">#9a652F8D</color>
+    <color name="black">#ff000000</color>
+    <color name="lite_black">#4c4c4c</color>
+    <color name="skyblue">#51b6dc</color>
+    <color name="red">#ED262A</color>
+    <color name="gray">#888888</color>
+    <color name="darkgray">#555555</color>
+    <color name="green">#00aa00</color>
+    <color name="black_trans">#55000000</color>
+    <color name="selectedcircle_color">#CCC9C9</color>
+    <color name="color_swipe">#111125</color>
+    <!-- Towber Color -->
+    <color name="color_text">#338c05</color>
+    <color name="color_text_popup">#c6c6c6</color>
+    <color name="color_text_menu">#ec4139</color>
+    <color name="color_app_gray">#999999</color>
+    <color name="color_text_dark">#676767</color>
+    <color name="color_hint_light">#cdcdcd</color>
+    <color name="theme_color">#338c05</color>
+    <color name="whitetrans">#c9ffffff</color>
+    <color name="white_trans">#ccffffff</color>
+    <color name="grey_drak">#364757</color>
+    <color name="grey_light">#ababab</color>
+    <color name="yellow_light">#ffe100</color>
+</resources>

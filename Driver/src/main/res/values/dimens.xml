@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="drawer_font_size">15.0sp</dimen>
+    <dimen name="ub_textsize_search_small">12.0sp</dimen>
+    <dimen name="ub_textsize_big">35.0sp</dimen>
+    <dimen name="font_size_popup_big">14sp</dimen>
+    <!--@mukesh for background change from image bg_name to color 27-8-16-->
+    <dimen name="bg_name_height">67dp</dimen>
+    <dimen name="margin_bottom_location_icon">50dp</dimen>
+    <dimen name="commonpadding_bottom">4dp</dimen>
+    <dimen name="commonpadding_rightleft">6dp</dimen>
+    <dimen name="pick_drop_height">30dp</dimen>
+    <dimen name="btn_height">45dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

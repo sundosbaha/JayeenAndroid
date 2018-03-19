@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:background="@drawable/dialog_bg"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+
+        android:orientation="vertical">
+
+        <com.jayeen.driver.widget.MyFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:text="@string/dialog_exit_caps"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_app_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.9dp"
+            android:background="@color/colorPrimary"></LinearLayout>
+
+
+        <com.jayeen.driver.widget.MyFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_margin_feedback"
+            android:gravity="right"
+            android:padding="8dp"
+            android:text="@string/dialog_exit_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/color_app_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin_mainscreen"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tvExitOk"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="@dimen/activity_margin_register"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_primary"
+                android:gravity="center"
+                android:text="@string/text_exit_ok"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/tvExitCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="@dimen/activity_margin_register"
+                android:layout_marginRight="@dimen/activity_margin_register"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_primarydark"
+                android:gravity="center"
+                android:text="@string/text_cancel"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

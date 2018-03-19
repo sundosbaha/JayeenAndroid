@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/slide_out_left.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/bt_slide_out_down.xml",
+        "source": "/root/.android/build-cache/642b167624391d0b9805e428d5625be205839c37/output/res/anim/bt_slide_out_down.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/bt_slide_in_up.xml",
+        "source": "/root/.android/build-cache/642b167624391d0b9805e428d5625be205839c37/output/res/anim/bt_slide_in_up.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/bt_bottom_sheet_dialog_close.xml",
+        "source": "/root/.android/build-cache/642b167624391d0b9805e428d5625be205839c37/output/res/anim/bt_bottom_sheet_dialog_close.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/bt_error_animation.xml",
+        "source": "/root/.android/build-cache/ccf18b41562e5477029d19748eef2567642328cf/output/res/anim/bt_error_animation.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/root/.android/build-cache/379fcea6906a4a5356f73b5123279e7dfc23e42f/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/bt_bottom_sheet_dialog_open.xml",
+        "source": "/root/.android/build-cache/642b167624391d0b9805e428d5625be205839c37/output/res/anim/bt_bottom_sheet_dialog_open.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/slide_out_right.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/bt_expiration_date_dialog_open.xml",
+        "source": "/root/.android/build-cache/ccf18b41562e5477029d19748eef2567642328cf/output/res/anim/bt_expiration_date_dialog_open.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/root/.android/build-cache/379fcea6906a4a5356f73b5123279e7dfc23e42f/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/circle_roll.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/anim/circle_roll.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/root/.android/build-cache/379fcea6906a4a5356f73b5123279e7dfc23e42f/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/bt_expiration_date_dialog_close.xml",
+        "source": "/root/.android/build-cache/ccf18b41562e5477029d19748eef2567642328cf/output/res/anim/bt_expiration_date_dialog_close.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/root/.android/build-cache/379fcea6906a4a5356f73b5123279e7dfc23e42f/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/slide_in_left.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/root/.android/build-cache/ba838bb2e6215cee4b1bb45ade3f495d2dca1ec6/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/build/intermediates/res/merged/release/anim/slide_in_right.xml",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Customer/src/main/res/anim/slide_in_right.xml"
+    }
+]

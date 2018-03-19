@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jayeen.customer.FavouriteAct">
+
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+      android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="60dip">
+        <ImageView
+            android:id="@+id/Ac_Place_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+            android:padding="10dip"
+            android:src="@drawable/search_icon" />
+        <EditText
+            android:id="@+id/AC_place_edit"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="60dip"
+            android:background="@null"
+
+            android:focusable="false"
+            android:hint="@string/text_search_loc"
+            android:maxLines="1"
+            android:textSize="@dimen/ub_textsize_search_big" />
+
+
+        <ImageView
+            android:id="@+id/Ac_Place_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="5dip"
+
+            android:src="@drawable/close_button" />
+
+
+    </LinearLayout>-->
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Ac_Place_Reclyer"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+</LinearLayout>

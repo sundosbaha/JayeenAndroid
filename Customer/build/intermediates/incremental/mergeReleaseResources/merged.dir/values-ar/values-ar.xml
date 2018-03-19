@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="custom_weekdays">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+    <string name="STATIC_MAP_NEW">http://maps.google.com/maps/api/staticmap?zoom=13&amp;size=350x300&amp;markers=color:blue|%1$s,%2$s&amp;sensor=false</string>
+    <string name="Scan_card">مسح بطاقة الدفع الخاصة بك</string>
+    <string name="Text_RecentLocation">الموقع الأخير</string>
+    <string name="Toast_Select_DropAddress">الرجاء تحديد عنوان الإسقاط</string>
+    <string name="Toast_Select_PickAddress">الرجاء تحديد عنوان بيك اب</string>
+    <string name="Txt_NoItem">لم يتم العثور على عنصر</string>
+    <string name="Txt_person">أفراد</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="access_denied_during_trip">لا يمكن استخدام القائمة خلال الرحلة , بامكانك استخدامها عند انتهائها</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="adding_payment">اضافة وسيلة دفع</string>
+    <string name="app_name">Jayeen Taxi </string>
+    <string name="bt_add_card">إضافة بطاقة</string>
+    <string name="bt_card_details">بيانات البطاقة</string>
+    <string name="bt_card_not_accepted">البطاقة غير مقبولة</string>
+    <string name="bt_card_number_invalid">رقم البطاقة غير صالح</string>
+    <string name="bt_card_number_required">يجب إدخال رقم البطاقة</string>
+    <string name="bt_cid">CID</string>
+    <string name="bt_confirm">تأكيد</string>
+    <string name="bt_confirm_enrollment">تأكيد التسجيل</string>
+    <string name="bt_country_code_invalid">كود الدولة غير صالح</string>
+    <string name="bt_country_code_required">يجب إدخال كود الدولة</string>
+    <string name="bt_cvc">CVC</string>
+    <string name="bt_cvn">CVN</string>
+    <string name="bt_cvv">CVV</string>
+    <string name="bt_cvv_invalid">‎%s‎ غير صالح</string>
+    <string name="bt_cvv_required">يجب إدخال ‎%s‎‏</string>
+    <string name="bt_descriptor_amex">Amex</string>
+    <string name="bt_descriptor_android_pay">Android Pay</string>
+    <string name="bt_descriptor_diners">Diners</string>
+    <string name="bt_descriptor_discover">Discover</string>
+    <string name="bt_descriptor_google_pay">Google Pay</string>
+    <string name="bt_descriptor_jcb">JCB</string>
+    <string name="bt_descriptor_maestro">Maestro</string>
+    <string name="bt_descriptor_mastercard">MasterCard</string>
+    <string name="bt_descriptor_pay_with_venmo">Venmo</string>
+    <string name="bt_descriptor_paypal">PayPal</string>
+    <string name="bt_descriptor_unionpay">UnionPay</string>
+    <string name="bt_descriptor_unknown">بطاقة ائتمان أو سحب</string>
+    <string name="bt_descriptor_visa">Visa</string>
+    <string name="bt_expiration_invalid">تاريخ انتهاء الصلاحية غير صالح</string>
+    <string name="bt_expiration_required">يجب إدخال تاريخ انتهاء الصلاحية</string>
+    <string name="bt_form_hint_card_number">رقم البطاقة</string>
+    <string name="bt_form_hint_country_code">كود الدولة</string>
+    <string name="bt_form_hint_cvv">@string/bt_cvv</string>
+    <string name="bt_form_hint_expiration">تاريخ انتهاء الصلاحية</string>
+    <string name="bt_form_hint_mobile_number">رقم الجوال</string>
+    <string name="bt_form_hint_postal_code">الكود البريدي</string>
+    <string name="bt_mobile_number_invalid">رقم الجوال غير صالح</string>
+    <string name="bt_mobile_number_required">يجب إدخال رقم الجوال</string>
+    <string name="bt_month">الشهر</string>
+    <string name="bt_next">التالي</string>
+    <string name="bt_other">غير ذلك</string>
+    <string name="bt_postal_code_invalid">الرمز البريدي غير صالح</string>
+    <string name="bt_postal_code_required">يجب إدخال الرمز البريدي</string>
+    <string name="bt_recent">الأحدث</string>
+    <string name="bt_scan_with_card_io">مسح باستخدام card.io‏</string>
+    <string name="bt_select_payment_method">اختر طريقة الدفع</string>
+    <string name="bt_sms_code">كود الرسالة النصية القصيرة</string>
+    <string name="bt_sms_code_required">يجب إدخال كود الرسالة النصية القصيرة</string>
+    <string name="bt_sms_code_sent_to">أدخل كود الرسالة النصية القصيرة المرسل إلى ‎%s‎‏</string>
+    <string name="bt_unionpay_mobile_number_explanation">قد يُشترط التسجيل لهذه البطاقة. سيتم إرسال كود في رسالة نصية قصيرة إلى هذا الرقم إذا لزم الأمر.</string>
+    <string name="bt_unionpay_sms_code_invalid">كود الرسالة النصية القصيرة غير صالح</string>
+    <string name="bt_use_a_different_phone_number">استخدم رقم هاتف مختلفاً</string>
+    <string name="bt_year">السنة</string>
+    <string name="card_detail_status">تفاصيل البطاقة التي أدخلتها غير صالحة</string>
+    <string name="card_num_status">رقم البطاقة الذي ادخلته خاطئ</string>
+    <string name="change_pickup">اسحب لتغير موقعك</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">تفضل بزيارة &lt;b>facebook.com/device&lt;/b> وإدخال الرمز الموضح أعلاه.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">حدث خطأ غير متوقع أثناء تنزيل صورة.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">يتطلب تسجيل دخول WebView الحصول إلى إذن INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">خطأ AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">أعجبك</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">أعجبني</string>
+    <string gender="unknown" name="com_facebook_loading">جارٍ التحميل…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">إلغاء</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">متابعة بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">تسجيل الدخول بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">تم تسجيل الدخول باسم: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">تم تسجيل الدخول باستخدام حساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_send_button_text">إرسال</string>
+    <string gender="unknown" name="com_facebook_share_button_text">مشاركة</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">لربط حسابك، افتح تطبيق فيسبوك على جهازك المحمول وراجع الإشعارات.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- أو -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">لست أنت؟</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">متابعة باسم %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">تأكيد تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">أنت المتحكم في الأمر - يمكنك اختيار المعلومات التي تود مشاركتها مع التطبيقات.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تمكين"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. الرجاء إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="connection_error_internal">حدث خطأ داخلي</string>
+    <string name="cvc_code_status">رمز CVC الذي ادخلته خاطئ</string>
+    <string msgid="3968620852217927702" name="day_picker_description">"شبكة الشهر مكونة من الأيام"</string>
+    <string msgid="6908431551612331381" name="deleted_key">"تم حذف <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="dialog_Message_loc">هل أنت متأكد أنك تريد حذف؟</string>
+    <string name="dialog_No">لا</string>
+    <string name="dialog_enable_3g">تفعيل 3G</string>
+    <string name="dialog_enable_gps">تقعيل GPS</string>
+    <string name="dialog_enable_location_service">الذهاب لخدمة الموقع</string>
+    <string name="dialog_enable_wifi">تفعيل الواي فاي</string>
+    <string name="dialog_exit">ىخرج</string>
+    <string name="dialog_exit_caps">ىخرج</string>
+    <string name="dialog_exit_text">هل أنت متأكد أنك تريد الخروج؟</string>
+    <string name="dialog_logout">تسجيل الخروج</string>
+    <string name="dialog_logout_caps">ىخرج</string>
+    <string name="dialog_logout_text">تاكيد تسجيل الخروج ؟</string>
+    <string name="dialog_no_gps">ﻻ يوجد GPS</string>
+    <string name="dialog_no_gps_messgae">يبدو وكأنك لم تقم بتشغيل خدمة الموقع الخاص بك.</string>
+    <string name="dialog_no_inter_message">انت غير متصل بشبكة الانترنت</string>
+    <string name="dialog_no_internet">الإنترنت غير متوفر</string>
+    <string name="dialog_no_location_service">يرجى تشغيل خدمة الموقع من الإعدادات، يجب أن تضغط على / إيقاف تبديل وتوافق على الوصول إلى الموقع وإعادة تشغيل التطبيق. \ n ملاحظة: إذا كنت قد اتبعت التعليمات و لم تعمل يرجى مسح بيانات التطبيق الافتراضية.</string>
+    <string name="dialog_no_location_service_title">خدمة الموقع مغلقة</string>
+    <string name="dialog_title_country_codes">رمز البلد</string>
+    <string name="dialog_yes">نعم فعلا</string>
+    <string msgid="7007948707597430919" name="done_label">"تم"</string>
+    <string name="driver_cancel_req">السائق قد لغى الرحلة  , ببساطة احجز مرة اخرى</string>
+    <string name="enter_comment">الرجاء قم بادخال التعليق</string>
+    <string name="err">خطأ</string>
+    <string name="err_referral_invalid">خطا في رمز Referral . يرجى المحاولة مرة اخرى </string>
+    <string name="error_401">ادخال خاطئ</string>
+    <string name="error_402">البريد الالكتروني مسجل بالفعل</string>
+    <string name="error_403">اسم المستخدم او كلمة المرور خاطئة</string>
+    <string name="error_404">غير مسجل</string>
+    <string name="error_405">الرمز المميز انتهى</string>
+    <string name="error_406">ادخال الرمز المميز بشكل خاطئ</string>
+    <string name="error_407">Walk ID  , Dog ID غير متشابهات</string>
+    <string name="error_408">لم يتم العثور على Walk ID </string>
+    <string name="error_409">Aتم التقيم بالفعل</string>
+    <string name="error_410">مالك الرقم  غير متوفر</string>
+    <string name="error_411">الرمز المميز والجدول الزمني غير متطابقين</string>
+    <string name="error_412">لم يتم العثور على معرف الجدول الزمني</string>
+    <string name="error_413">لم تتم الموافقة على السير </string>
+    <string name="error_414">لم يبدأ بالسير عليك</string>
+    <string name="error_415">السير لم ينتهي بعد</string>
+    <string name="error_416">لقد بدأ السير</string>
+    <string name="error_417">نوع الجهاز أو الرمز المميز للجهاز أو تسجيل الدخول بسبب عدم التطابق</string>
+    <string name="error_483">لا تتوفر برامج تشغيل حاليا. يرجى المحاولة بعد مرور بعض الوقت.</string>
+    <string name="error_600">ادخال خاطئ</string>
+    <string name="error_601">رقم هاتف خاطئ</string>
+    <string name="error_602">البريد الالكتروني مسجل بالفعل</string>
+    <string name="error_603">رقم الهاتف مسجل بالفعل</string>
+    <string name="error_604">مستخدم غير نشط</string>
+    <string name="error_605">تسجيل الدخول عن طريق mismatch</string>
+    <string name="error_606">اسم المستخدم او كلمة المرور خاطئة</string>
+    <string name="error_607">ليس مستخدم تسجيل الاجتماعي صالحا</string>
+    <string name="error_608">رمز OTP تجاوز الوقت</string>
+    <string name="error_609">رمز OTP خاطئ</string>
+    <string name="error_610">اسم المستخدم غير متوفر</string>
+    <string name="error_611">ﻻ يوجد سائقين قريبين منك</string>
+    <string name="error_612">الرجاء اضافة اول وسيلة دفع</string>
+    <string name="error_613">لم يتم العثور على برنامج تشغيل يطابق نوع الخدمة</string>
+    <string name="error_614">الرمز الترويجي غير متوفر</string>
+    <string name="error_615">الرمز الترويجي المستخدم من قبل</string>
+    <string name="error_616">ميزة الترويج غير نشطة على بطاقة الدفع</string>
+    <string name="error_617">ميزة الترويج غير نشطة</string>
+    <string name="error_618">تعذر إنشاء معرف العميل</string>
+    <string name="error_619">خطأ في بوابة الدفع</string>
+    <string name="error_620">الرمز المميز منتهية الصلاحية</string>
+    <string name="error_621">لم يتم العثور على هوية المستخدم</string>
+    <string name="error_622">ليس رمز صالح</string>
+    <string name="error_623">لم يتم العثور على بطاقة</string>
+    <string name="error_624">ادخال كلمة السر القديمة خاطئ</string>
+    <string name="error_625">جاري البحث عن سائق</string>
+    <string name="error_626">نعتذر لا يوجد سيارات متوفرة في هذه اللحظة  </string>
+    <string name="error_627">لا يتطابق معرف الطلب مع معرف المستخدم</string>
+    <string name="error_628">لم يتم العثور على معرف الطلب</string>
+    <string name="error_629">لم يتم تأكيد برنامج التشغيل بعد</string>
+    <string name="error_630">تم تقييمها من قبل</string>
+    <string name="error_631">Walk لم يكتمل</string>
+    <string name="error_632">رمز السائق لا يتطابق مع رمز المستخدم</string>
+    <string name="error_633">هذا البريد الإلكتروني غير مسجل</string>
+    <string name="error_634">عذرا، لقد سبق لك طلب Referral Code.</string>
+    <string name="error_635">تم تطبيق رمز الإحالة</string>
+    <string name="error_636">عذرا، لا يمكنك تطبيق رمز Referral</string>
+    <string name="error_637">رمز الحساب غير صحيح</string>
+    <string name="error_638">لقد تخطيت لعملية ادخال رمز Referral</string>
+    <string name="error_639">لا يمكنك تطبيق شفرة متعددة لرحلة واحدة</string>
+    <string name="error_640">ميزة البرومو غير نشطة على الدفع النقدي</string>
+    <string name="error_641">وضع الدفع هو باي بال</string>
+    <string name="error_642">لا يمكنك تطبيق الpromocode بدون إنشاء طلب</string>
+    <string name="error_643">لم تبدأ الخدمة بعد</string>
+    <string name="error_644">لم يصل السائق بعد</string>
+    <string name="error_645">يتم رفض بطاقتك، يرجى دفع نقدا للسائق لهذه الرحلة</string>
+    <string name="error_646">يرجى اخذ النقد من المستخدم لرحلتك</string>
+    <string name="error_647">يجب ألا تكون كلمة المرور القديمة فارغة</string>
+    <string name="error_656">فشل في نقل المحفظة</string>
+    <string name="error_657">البطاقة غير موجودة</string>
+    <string name="error_658">اقتباس كمية أقل لنقل</string>
+    <string name="error_659">اضافة كمية اقل الى محفظتك</string>
+    <string name="error_660">هناك خطأ ما</string>
+    <string name="error_661">القيمة التي بحوزتك في المحفظة أقل</string>
+    <string name="error_662">اضافة النقود الى المحفظة</string>
+    <string name="error_contact_server">اووبس ! يرجى المحاولة مرة اخرى</string>
+    <string name="error_empty_email">ادخل البريد الالكتروني </string>
+    <string name="error_empty_password"> ادخل كلمة السر</string>
+    <string name="error_empty_rating">رجاء قيم السائق لنتمكن من الوصل في الخدمة للاعلى مستوى</string>
+    <string name="error_empty_retypepassword">رجاء ادخل كلمة السر مرة اخرى</string>
+    <string name="error_mismatch_password">الرمز المدخل لا يتوافق مع الرمز الجديد !</string>
+    <string name="error_something_went_wrong">عفوا حدث خطأ ما يرجى المحاولة مرة أخرى!</string>
+    <string name="error_valid_email">ادخل الايميل</string>
+    <string name="error_valid_password">كلمة السر يجب ان تتكون من 6 حروف على الاقل</string>
+    <string name="expiry_date_status">تاريخ البطاقة الذي ادخلته خاطئ</string>
+    <string name="facebook_app_id">132560970738577</string>
+    <string name="gcm_defaultSenderId">276090070126</string>
+    <string msgid="7586639618712934060" name="hour_picker_description">"شريط التمرير الدائري للساعات"</string>
+    <string name="img_status">غير قادر على تحديد الصورة</string>
+    <string name="invalid_date_time">التاريخ و الوقت غير صالح يرجى اعادة تعيينهم</string>
+    <string msgid="2674929164900463786" name="item_is_selected">"تم تحديد <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="6024811202872705251" name="minute_picker_description">"شريط التمرير الدائري للدقائق"</string>
+    <string name="msg_referral">ادخل رمز المكافاة للحصول على رصيد مجاني !! إذا كنت لاتملك رمز او لاتود استخدامه فقط اضغط تخطي , شكراَ </string>
+    <string name="multiple_card">بامكانك اضافة اكثر من بطاقة</string>
+    <string name="no_card">لم تحدد البطاقة الافتراضية للدفع</string>
+    <string name="no_internet">الشبكة ضعيفة يرجى المحاولة مرة اخرى</string>
+    <string name="no_provider_found">ﻻ يوجد سيارات اجرة متاحة </string>
+    <string name="payment_mode">نعتذر , ﻻ يمكنك تغير وسيلة الدفع</string>
+    <string name="payment_unit">JOD  </string>
+    <string name="phone_call_permission">معذرة!!! طلب الاذن مرفوض</string>
+    <string name="play_unavailable">تشغيل الخدمات الغير متاحة \n حاول مرة أخرى ..</string>
+    <string name="progress_GET_FavouriteList">الحصول على المواقع المفضلة</string>
+    <string name="progress_Remove_Location">إزالة الموقع</string>
+    <string name="progress_SAVE_LOCATION">إضافة موقع</string>
+    <string name="progress_getting_history">تحميل الرحلات السابقة</string>
+    <string name="progress_loading">جاري التحميل</string>
+    <string name="progress_update_profile">تحديث الحساب الرجاء الانتظار </string>
+    <string name="register_gcm_failed">فشل التسجيل مع GCM</string>
+    <string name="scan_cancel">تم الغاء الفحص</string>
+    <string name="schedule_status">تم تاكيد حجزك مسبق بنجاح</string>
+    <string name="schedule_time">ملاحظة : يجب ان يكون الحجز السابق بعد 30 دقيقة من وقتك الحالي ,شكرا :)</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="select_date_time">الرجاء ادخال الوقت والتاريخ</string>
+    <string msgid="3973338219107019769" name="select_day">"تحديد الشهر واليوم"</string>
+    <string msgid="7651068754188418859" name="select_hours">"تحديد الساعات"</string>
+    <string msgid="8327182090226828481" name="select_minutes">"تحديد الدقائق"</string>
+    <string name="select_vehicle">اختر نوع السيارة</string>
+    <string msgid="2603330600102539372" name="select_year">"تحديد العام"</string>
+    <string name="signin_failed">فشل تسجيل الدخول اعد المحاولة</string>
+    <string name="sosdialoginfo">هل انت متاكد انك تريد الاتصال ب </string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="success_content1">لقد تم الحجز بنجاح</string>
+    <string name="success_content2">\n تحقق من حالة ركابك في قائمة الجدول.</string>
+    <string name="text_LocationDetails">تفاصيل الموقع</string>
+    <string name="text_NameofLocation">اسم موقعك (الصفحة الرئيسية/ عمل ..,)</string>
+    <string name="text_Place">مكان</string>
+    <string name="text_Viewall">عرض جميع المواقع المحفوظة</string>
+    <string name="text_add">إضافة</string>
+    <string name="text_add_card_scucess">تم اضافة البطاقة بنجاح</string>
+    <string name="text_add_card_wallet">أضف بطاقة معالجة المدفوعات</string>
+    <string name="text_add_money">إضافة المال</string>
+    <string name="text_add_payment">اضف رصيد</string>
+    <string name="text_adding_dest">اضافة طريق</string>
+    <string name="text_addpayment">اضف رصيد</string>
+    <string name="text_addpayment_small">اضف رصيد</string>
+    <string name="text_addr_notavailable">العنوان غير متاح</string>
+    <string name="text_address">عنوان</string>
+    <string name="text_allow_permission">تحتاج الى اذن للوصول الى الصلاحيات</string>
+    <string name="text_ambulance">سيارة الاسعاف</string>
+    <string name="text_ambulance_number">108</string>
+    <string name="text_amount_blank">لا يمكن ترك المبلغ فارغًا</string>
+    <string name="text_apply">اتم العملية</string>
+    <string name="text_apply_promo">تطبيق الرمز الترويجي</string>
+    <string name="text_back">رجوع</string>
+    <string name="text_base_price">السعر الأساسي</string>
+    <string name="text_bio">المعلومات الشخصية</string>
+    <string name="text_blank_otp_code">الرجاء ادخل رمز ال OTP</string>
+    <string name="text_blank_ref_code">الرجاء ادخال رمز Referral</string>
+    <string name="text_buy_credits">شراء إئتمانات</string>
+    <string name="text_call">اتصال</string>
+    <string name="text_camera">التقط صورة</string>
+    <string name="text_cancel">الغاء الطلب</string>
+    <string name="text_cancel_payment">تم إلغاء الموافقة على الدفع</string>
+    <string name="text_cancel_ride">الغاء الرحلة</string>
+    <string name="text_canceling_request">جاري الغاء الطلب</string>
+    <string name="text_card">البطاقة  الائتمانية</string>
+    <string name="text_card_selection_note">الرجاء اختيار البطاقة الرئيسيى.</string>
+    <string name="text_cards">الدفع</string>
+    <string name="text_cash">نقود</string>
+    <string name="text_changing_default_card">تغير البطاقة الرئيسية</string>
+    <string name="text_changing_payment_mode">تغير وضع وسيلة الدفع</string>
+    <string name="text_check_time">يرجى التحقق من الوقت</string>
+    <string name="text_chk_time">يرجى التحقق من الوقت</string>
+    <string name="text_choose_date">اختيار التاريخ</string>
+    <string name="text_choose_time">اختيار الوقت</string>
+    <string name="text_choose_your_payment_option">اختر خيار الدفع الخاص بك</string>
+    <string name="text_choosepicture">اختر صورة</string>
+    <string name="text_close">اغلق</string>
+    <string name="text_comment">تعليق </string>
+    <string name="text_confirm">موافق</string>
+    <string name="text_contacting">جاري البحث عن اقرب سائق</string>
+    <string name="text_continue">استمر</string>
+    <string name="text_cost_per_hour">JOD  التعرفة /  دقيقة الانتظار</string>
+    <string name="text_cost_per_mile">JOD  التعرفة / كيلومتر</string>
+    <string name="text_creating_request">انشاء طلب</string>
+    <string name="text_credit_card_holder">حامل بطاقة الائتمان</string>
+    <string name="text_credit_card_number">رقم البطاقة </string>
+    <string name="text_cvc">CVC</string>
+    <string name="text_destination_pin_title">عنوان الوجهة</string>
+    <string name="text_distance_cost">التكلفة / كيلومتر</string>
+    <string name="text_done">تم </string>
+    <string name="text_drive_location">موقع السائق</string>
+    <string name="text_driver_arrvied">لفد وصل السائق لمكانك</string>
+    <string name="text_driver_started">السائق في طريقه اليك</string>
+    <string name="text_driver_trip_cancled">السائق قد لغى الرحلة</string>
+    <string name="text_drophinttitle">ادخل موقع الوصول </string>
+    <string name="text_edit_hintval">دخول</string>
+    <string name="text_edit_profile">تعديل الحساب </string>
+    <string name="text_email"> البريد الالكتروني </string>
+    <string name="text_emergency_call">عمل مكالمة طوارئ</string>
+    <string name="text_enter_LocationName">الرجاء إدخال اسم الموقع</string>
+    <string name="text_enter_amount">أدخل المبلغ</string>
+    <string name="text_enter_email">يرجى إدخال معرف البريد الإلكتروني أو رقم الهاتف المحمول</string>
+    <string name="text_enter_lname">رجاء ادخل الاسم الاخير</string>
+    <string name="text_enter_mobile_number">الرجاء ادخال رقم الهاتف</string>
+    <string name="text_enter_name">رجاء ادخل الاسم الاول</string>
+    <string name="text_enter_number">ادخل رقم الهاتف</string>
+    <string name="text_enter_otp_code">ادخل رمز التأكيد</string>
+    <string name="text_enter_password"> ادخل كلمة السر</string>
+    <string name="text_enter_password_valid">كلمة السر يجب ان تتكون من 6 حروف على الاقل</string>
+    <string name="text_enter_promo_code">ادخل البروموكود من فضلك</string>
+    <string name="text_enter_ref_code">ادخل رمز المكافأة</string>
+    <string name="text_enter_tips">أدخل النصائح</string>
+    <string name="text_enter_valid_email">ادخل الايميل</string>
+    <string name="text_error_tips">الرجاء إدخال قيمة العمولة</string>
+    <string name="text_estimate_fare">تنبيه: هذا السعر تقريبي !! السعر النهائي مرتبط بحالة الطريق و الخصومات ان وجدت :)</string>
+    <string name="text_eta">الوقت المقدر للوصول</string>
+    <string name="text_favourite">مفضل</string>
+    <string name="text_feedback">تعليقات </string>
+    <string name="text_feedback_completed">شكرا لك على ملاحظاتك!</string>
+    <string name="text_firestation">محطة الاطفاء</string>
+    <string name="text_firestation_number">101</string>
+    <string name="text_fname">الاسم الاول</string>
+    <string name="text_fname_caps">الاسم الاول</string>
+    <string name="text_for">من</string>
+    <string name="text_forget_pass_small">هل نسيت كلمة المرور</string>
+    <string name="text_forget_password">نسيت الرقم السري ؟</string>
+    <string name="text_forget_password_loading_msg">اعادة تعيين كلمة السر </string>
+    <string name="text_forgetpass">نسيت الرقم السري ؟</string>
+    <string name="text_forgot_password">تم ارسال كلمة السر على بريدك الالكتروني المسجل</string>
+    <string name="text_gallary">صالة عرض</string>
+    <string name="text_get_fare_estimate">تقدير البلغ </string>
+    <string name="text_getting_ref_code">الحصول على رمز Referral </string>
+    <string name="text_history">تاريخ الرحل</string>
+    <string name="text_home">عنوان المنزل</string>
+    <string name="text_iam_using">"انا استخدم  "</string>
+    <string name="text_invoice">فاتورة </string>
+    <string name="text_job_accepted">تم قبول الطلب</string>
+    <string name="text_journey_ok">موافق</string>
+    <string name="text_journey_success">تمت الموافقة على الحجز</string>
+    <string name="text_language">اللغة</string>
+    <string name="text_lname">الاسم الاخير</string>
+    <string name="text_lname_caps">الاسم الاخير</string>
+    <string name="text_location_not_found">موقعك الحالي غير موجود</string>
+    <string name="text_loginreg">جاري التحميل</string>
+    <string name="text_make_select">اختيارك : </string>
+    <string name="text_max_size">اقصى عدد للركاب</string>
+    <string name="text_min">دقيقة</string>
+    <string name="text_min_fare">اقل طلب</string>
+    <string name="text_mins">دقيقة</string>
+    <string name="text_mm">MM</string>
+    <string name="text_my_location">موقعي</string>
+    <string name="text_networ_notavailable">شبكة غير متوفرة !!!</string>
+    <string name="text_next">التالي</string>
+    <string name="text_not_add_card_unscucess">أخفقت إضافة البطاقات</string>
+    <string name="text_note_referral">\nيرجى تدوين ملاحظة رمز الإحالة الخاص بك</string>
+    <string name="text_note_schedule">ملاحظة : يجب ان يكون الحجز السابق بعد 30 دقيقة من وقتك الحالي ,شكرا :)</string>
+    <string name="text_now_ride_cash">الآن يمكنك ركوب دون نقد</string>
+    <string name="text_number">رقم الهاتف</string>
+    <string name="text_otpedit">انقر هنا لتعديل معلوماتك الشخصية</string>
+    <string name="text_otpmaintitle">اجلس و استرخي ! جاري تأكيد رقم هاتفك ....</string>
+    <string name="text_otpref_code">تاكيد رمز OTP</string>
+    <string name="text_otptitlesecond">(ادخل الرمز في الاسفل )</string>
+    <string name="text_out_of_memory">يرجى مسح التطبيقات في الذاكرة العشوائية </string>
+    <string name="text_pass_current">الرقم السري الحالي</string>
+    <string name="text_pass_new">الرقم السري الجديد</string>
+    <string name="text_pass_retype">تأكيد الرقم السري</string>
+    <string name="text_passs">الرقم السري</string>
+    <string name="text_past">الماضي</string>
+    <string name="text_per">/</string>
+    <string name="text_permission">الإذن</string>
+    <string name="text_persons">شخص</string>
+    <string name="text_pickhinttitle">اضف موقع التحميل</string>
+    <string name="text_play_link">" now !\nhttps://play.google.com/store/apps/details?id="</string>
+    <string name="text_please_chk_time">يرجى التحقق من الوقت</string>
+    <string name="text_police">الشرطة </string>
+    <string name="text_police_number">911</string>
+    <string name="text_process_wallet_amt_add">دفع المعالجة</string>
+    <string name="text_profile">الحساب</string>
+    <string name="text_profile_popup">لا يمكن تعديل هذا الخيار</string>
+    <string name="text_promo_bonus">رصيد اضافي </string>
+    <string name="text_promo_code">برومو كود</string>
+    <string name="text_promo_code_invalid">Invalid Promo Code.</string>
+    <string name="text_promo_code_success">تم تطبيق الرمز الترويجي بنجاح</string>
+    <string name="text_proper_data">أدخل البيانات المناسبة</string>
+    <string name="text_rate_card">نموذج تقيم</string>
+    <string name="text_rating">تقييم</string>
+    <string name="text_ref_code">يرجى تدوين رمز الإحالة الخاص بك</string>
+    <string name="text_referral_bonus">رصيد مكافأة</string>
+    <string name="text_referral_code">رمز المكافأة</string>
+    <string name="text_refferal">رمز الحساب</string>
+    <string name="text_regemail_popup">الرجاء تاكيد البريد الالكتروني , لن تتمكن من تعديله في المستقبل .</string>
+    <string name="text_register">انشاء حساب</string>
+    <string name="text_register_small">تسجيل</string>
+    <string name="text_registering">جاري التسجيل</string>
+    <string name="text_request">اطلب</string>
+    <string name="text_resendotp"><u>ارسل الرمز مرة اخرى</u></string>
+    <string name="text_revoke_permision">الموقع والدولة الهاتف إذن إلزامي يرجى السماح للوصول.
+  هل تريد بالتأكيد المتابعة؟</string>
+    <string name="text_ride">الرحلة</string>
+    <string name="text_ride_canceled">تم الغاء الرحلة</string>
+    <string name="text_ride_later">اطلب لاحقا</string>
+    <string name="text_ride_now">اطلب الان</string>
+    <string name="text_save_loc">حفظ الموقع</string>
+    <string name="text_schedulehistory">الحجز اللاحق</string>
+    <string name="text_search_destination">البحث المقصد</string>
+    <string name="text_search_loc">البحث عن موقع</string>
+    <string name="text_select_cancel">هل انت متأكد من الغاء العملية</string>
+    <string name="text_select_journey">اختر تفاصيل رحلتك </string>
+    <string name="text_select_payment">اختار طريقة الدفع</string>
+    <string name="text_select_type">اختر نوع المركبة</string>
+    <string name="text_share">شارك </string>
+    <string name="text_share_app">شارك التطبيق</string>
+    <string name="text_share_ref">مشاركة رمز الإحالة</string>
+    <string name="text_share_referral">مشاركة رمز الإحالة</string>
+    <string name="text_sharequote">""نلقي نظرة على لينك الآلي تاكسي""</string>
+    <string name="text_signin"> دخول</string>
+    <string name="text_signin_small">تسجيل الدخول</string>
+    <string name="text_signing">جاري تسجيل الدخول</string>
+    <string name="text_skip">تخطي</string>
+    <string name="text_sorry">نعتذر!</string>
+    <string name="text_sorry_drivers_busy">آسف جميع السائقين لدينا مشغولون. يرجى المحاولة بعد مرور بعض الوقت</string>
+    <string name="text_sos">الطوارئ</string>
+    <string name="text_soscontent">لقد ضغطت على زر الطوارئ , الرجاء اختيار من بمن تود الاتصال ...</string>
+    <string name="text_source_pin_title">اختيار لي من هنا</string>
+    <string name="text_submit">ارسل</string>
+    <string name="text_time_cost">السعر / مدة</string>
+    <string name="text_tips">نصيحة</string>
+    <string name="text_today">اليوم</string>
+    <string name="text_total">المجموع</string>
+    <string name="text_trip_completed">تم اكمال الرحلة  :)</string>
+    <string name="text_trip_started">بدأت الرحلة , رحلة سعيدة :)</string>
+    <string name="text_trips">رحلتك</string>
+    <string name="text_try_itout">" لماذا لا تحاول استخدام التطبيق ! \nInstall "</string>
+    <string name="text_upcoming">الحجز اللاحق</string>
+    <string name="text_upcomming">القادمة</string>
+    <string name="text_update_profile">تحديث معلومات الحساب </string>
+    <string name="text_vehicle_type">نوع السيارة</string>
+    <string name="text_wait_addr">في انتظار العنوان</string>
+    <string name="text_waiting_for_address">انتظر العنوان</string>
+    <string name="text_waiting_for_confirm">انتظر قبول السائق الرحلة</string>
+    <string name="text_waiting_for_location">في انتظار الموقع</string>
+    <string name="text_wallet">المحفظة</string>
+    <string name="text_work">عنوان العمل</string>
+    <string name="text_yesterday">البارحة</string>
+    <string name="text_your_referral_credit">رصيد المكافأة الخاص بك</string>
+    <string name="text_yy">YYYY</string>
+    <string name="text_zip">الرمز البريدي</string>
+    <string name="title_activity_setting">إعدادات</string>
+    <string name="toast_email_ivalid">بريد إلكتروني غير صالح</string>
+    <string name="toast_forget_password_success">تم ارسال كلمة المرور الى بريدك المسجل </string>
+    <string name="toast_unable_to_selct_image">غير قادر على تحديد الصورة</string>
+    <string name="toast_update_failed">أخفق تحديث الملف الشخصي</string>
+    <string name="txt_SearchResult">نتيجة البحث</string>
+    <string name="txt_select_country">اختر الدولة لرقم الهاتف</string>
+    <string name="txt_select_your_payment_card">اختر بطاقة الدفع الخاصة بك</string>
+    <string name="unable_location">غير قادر على الحصول على الموقع ..!</string>
+    <string name="waiting_time_price">سعر وقت الانتظار</string>
+    <string msgid="6963340404644587098" name="year_picker_description">"قائمة الأعوام"</string>
+    <string name="your_cards">بطاقات الخاص بك</string>
+</resources>

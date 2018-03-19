@@ -1,0 +1,438 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bill_trans"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_top_minus"
+            android:background="@drawable/bg_bill"
+            android:gravity="center_horizontal">
+
+            <com.jayeen.driver.widget.MyFontTextViewTitle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="33.5dp"
+                android:drawableTop="@drawable/bill_paper"
+                android:text="@string/text_invoice"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_invoice_text" />
+        </LinearLayout>
+        <!--<TextView-->
+        <!--android:text="RequestID"-->
+        <!--android:id="@+id/trip_id"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:layout_height="wrap_content" />-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_bill_margin_one"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_bill_padding_one"
+                    android:paddingRight="@dimen/dimen_bill_padding_two">
+
+                    <com.jayeen.driver.widget.MyFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_two"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/text_base_price"
+                        android:textColor="@color/color_app_gray"
+                        android:textSize="@dimen/dimen_invoice_baseprice"
+                        android:textStyle="bold" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="@string/costarica_currency"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font"
+                        android:textStyle="normal" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:id="@+id/tvBasePrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="00.00"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@color/gray"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_register"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_bill_padding_one"
+                    android:paddingRight="@dimen/dimen_bill_padding_two">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_two"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.jayeen.driver.widget.MyFontTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_distance_cost"
+                            android:textColor="@color/color_app_gray"
+                            android:textSize="@dimen/dimen_invoice_baseprice"
+                            android:textStyle="bold" />
+
+                        <com.jayeen.driver.widget.MyFontTextViewTitle
+                            android:id="@+id/tvBillDistancePerMile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_base_price"
+                            android:textColor="@color/color_app_gray"
+                            android:textSize="@dimen/invoice_base_price_small" />
+                    </LinearLayout>
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="@string/costarica_currency"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font"
+                        android:textStyle="normal" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:id="@+id/tvDis1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@color/gray"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_register"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_bill_padding_one"
+                    android:paddingRight="@dimen/dimen_bill_padding_two">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_two"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.jayeen.driver.widget.MyFontTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_time_cost"
+                            android:textColor="@color/color_app_gray"
+                            android:textSize="@dimen/dimen_invoice_baseprice"
+                            android:textStyle="bold" />
+
+                        <com.jayeen.driver.widget.MyFontTextViewTitle
+                            android:id="@+id/tvBillTimePerHour"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_base_price"
+                            android:textColor="@color/color_app_gray"
+                            android:textSize="@dimen/invoice_base_price_small" />
+                    </LinearLayout>
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="@string/costarica_currency"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font"
+                        android:textStyle="normal" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:id="@+id/tvTime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@color/gray"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_register"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_bill_padding_one"
+                    android:paddingRight="@dimen/dimen_bill_padding_two">
+
+                    <com.jayeen.driver.widget.MyFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_two"
+                        android:layout_weight="1"
+                        android:text="@string/text_referral_bonus"
+                        android:textColor="@color/color_app_gray"
+                        android:textSize="@dimen/dimen_invoice_baseprice"
+                        android:textStyle="bold" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="@string/costarica_currency"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font"
+                        android:textStyle="normal" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:id="@+id/tvReferralBonus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@color/gray"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_register"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_bill_padding_one"
+                    android:paddingRight="@dimen/dimen_bill_padding_two">
+
+                    <com.jayeen.driver.widget.MyFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_two"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/text_promo_bonus"
+                        android:textColor="@color/color_app_gray"
+                        android:textSize="@dimen/dimen_invoice_baseprice"
+                        android:textStyle="bold" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="@string/costarica_currency"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font"
+                        android:textStyle="normal" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:id="@+id/tvPromoBonus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@color/gray"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_register"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:paddingLeft="@dimen/dimen_bill_padding_one"
+                    android:paddingRight="@dimen/dimen_bill_padding_two">
+
+                    <com.jayeen.driver.widget.MyFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_two"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/Waiting_Time"
+                        android:textColor="@color/color_app_gray"
+                        android:textSize="@dimen/dimen_invoice_baseprice"
+                        android:textStyle="bold" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="@string/costarica_currency"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font"
+                        android:textStyle="normal" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:id="@+id/tvWaitingTimePrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/invoice_price_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:visibility="gone"
+                    android:background="@color/gray"></LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen_bill_padding_one"
+                android:paddingRight="@dimen/dimen_bill_padding_two">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_bill_second_top"
+                    android:gravity="center"
+                    android:text="@string/text_total"
+                    android:textColor="@color/color_app_gray"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dimen_bill_margin_three"
+                        android:gravity="center"
+                        android:text="@string/costarica_currency"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/dimen_bill_text"
+                        android:textStyle="normal" />
+
+                    <com.jayeen.driver.widget.MyFontTextViewTitle
+                        android:id="@+id/tvTotal1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="00.00"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/dimen_bill_text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:gravity="bottom">
+        <!--Changing background from bitmap to colors @mukesh 27-8-2016-->
+        <!--<com.taxicad.taxinow.taxidriver.widget.MyFontButton-->
+        <!--android:id="@+id/btnBillDialogClose"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/btn_bill"-->
+        <!--android:text="@string/text_close"-->
+        <!--android:textColor="@color/white" />-->
+        <com.jayeen.driver.widget.MyFontButton
+            android:id="@+id/btnBillDialogClose"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bg_name_height"
+            android:background="@drawable/button_selector_primary"
+            android:text="@string/text_close"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

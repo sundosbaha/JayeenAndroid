@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_pickupaddr" type="id">tv_pickupaddr</item>
+    <item name="tv_date" type="id">tv_date</item>
+    <item name="tv_dropaddr" type="id">tv_dropaddr</item>
+</resources>

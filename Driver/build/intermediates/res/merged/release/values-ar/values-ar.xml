@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="Waiting_Time">وقت الانتظار السعر</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="access_denied_during_trip">لا يمكن استخدام القائمة خلال الرحلة , بامكانك استخدامها عند انتهائها</string>
+    <string name="action_settings">اعدادات الحساب </string>
+    <string name="app_name">Jayeen</string>
+    <string name="cancel_request_failed">فشل الغاء الطلب</string>
+    <string name="client_destination">عنوان الوجهة</string>
+    <string name="client_location">موقع العميل</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تمكين"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. الرجاء إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="connection_error_disabled">تم تعطيل خدمات Google Play</string>
+    <string name="connection_error_internal">حدث خطأ داخلي</string>
+    <string name="connection_error_invalid">إصدار خدمات غوغل بلاي على هذا الجهاز ليس موثقاً</string>
+    <string name="connection_error_invalid_account">اسم الحساب المحدد غير صالح</string>
+    <string name="connection_error_license_check_failed">التطبيق غير مرخص للمستخدم</string>
+    <string name="connection_error_misconfigured">تم تنزيل التطبيق بشكل خاطئ</string>
+    <string name="connection_error_missing">خدمات Google Play مفقودة</string>
+    <string name="connection_error_needs_resolution">مطلوب قرار إضافي</string>
+    <string name="connection_error_network">حدث خطأ في الشبكة</string>
+    <string name="connection_error_outdated">خدمات Google Play قديمة</string>
+    <string name="connection_error_sign_in_required">لم يتم تسجيل دخول المستخدم</string>
+    <string name="connection_error_unknown">حدث خطأ غير معروف</string>
+    <string name="costarica_currency">JOD </string>
+    <string name="dialog_chhose_photo">اختر صورة</string>
+    <string name="dialog_enable_3g">تفعيل 3G</string>
+    <string name="dialog_enable_gps">تقعيل GPS</string>
+    <string name="dialog_enable_location_service">انتقل إلى خدمة الموقع</string>
+    <string name="dialog_enable_wifi">تفعيل الواي فاي</string>
+    <string name="dialog_exit">ىخرج</string>
+    <string name="dialog_exit_caps">ىخرج</string>
+    <string name="dialog_exit_text">هل أنت متأكد أنك تريد الخروج؟</string>
+    <string name="dialog_from_camera">التقط صورة</string>
+    <string name="dialog_from_gallery">صالة عرض</string>
+    <string name="dialog_logout">تسجيل الخروج</string>
+    <string name="dialog_logout_text">تاكيد تسجيل الخروج </string>
+    <string name="dialog_no_gps">ﻻ يوجد GPS</string>
+    <string name="dialog_no_gps_messgae">يرجى تفعيل خدمة الموقع </string>
+    <string name="dialog_no_inter_message">تأكد من اتصال الانترنت في جهازك </string>
+    <string name="dialog_no_internet">لا يوجد اتصال </string>
+    <string name="dialog_no_location_service">يرجى تشغيل خدمة الموقع من الإعدادات، يجب أن تضغط على / إيقاف تبديل وتوافق على الوصول إلى الموقع وإعادة تشغيل التطبيق. \ nملاحظة: إذا كنت قد فعلت بالفعل خيارات مع عدم الموافقة وعدم إظهار الحوار مرة أخرى ثم الحوار الموقع لا تظهر عند الضغط على / إيقاف زر تبديل.لحل هذه المشكلة يجب مسح كافة تفضيلات الإعداد.</string>
+    <string name="dialog_no_location_service_title">تم إيقاف خدمة الموقع.</string>
+    <string name="drawer_close">اغلاق رسوم الملاحة</string>
+    <string name="drawer_open">فتح رسوم الملاحة</string>
+    <string name="error_401">ادخال خاطئ</string>
+    <string name="error_402">البريد الالكتروني مسجل بالفعل</string>
+    <string name="error_403">اسم المستخدم او كلمة المرور خاطئة</string>
+    <string name="error_404">غير مسجل</string>
+    <string name="error_405">الرمز المميز انتهى</string>
+    <string name="error_406">ادخال الرمز المميز بشكل خاطئ</string>
+    <string name="error_407">Walk ID  , Dog ID غير متشابهات</string>
+    <string name="error_408">لم يتم العثور على Walk ID </string>
+    <string name="error_409">تم التقيم بالفعل</string>
+    <string name="error_410">مالك الرقم  غير متوفر</string>
+    <string name="error_411">الرمز المميز والجدول الزمني غير متطابقين</string>
+    <string name="error_412">لم يتم العثور على معرف الجدول الزمني</string>
+    <string name="error_413">لم تتم الموافقة على السير </string>
+    <string name="error_414">لم يبدأ بالسير عليك</string>
+    <string name="error_415">السير لم ينتهي بعد</string>
+    <string name="error_416">لقد بدأ السير</string>
+    <string name="error_417">نوع الجهاز أو الرمز المميز للجهاز أو تسجيل الدخول بسبب عدم التطابق</string>
+    <string name="error_601">رقم هاتف خاطئ</string>
+    <string name="error_contact_server">اوووبس ! حاول مرة اخرة</string>
+    <string name="error_empty_email">الايميل</string>
+    <string name="error_empty_fname">الاسم الاول </string>
+    <string name="error_empty_lname">الاسم الثاني</string>
+    <string name="error_empty_model">الرجاء ادخال نوع السيارة</string>
+    <string name="error_empty_number">ادخل رقم الهاتف</string>
+    <string name="error_empty_password">كلمة المرور</string>
+    <string name="error_empty_reg_password"> ادخل كلمة السر</string>
+    <string name="error_empty_retypepassword">تأكيد كلمة المرور</string>
+    <string name="error_empty_taxi_no">ادخل رقم اللوحة </string>
+    <string name="error_empty_type">اختر نوع المركبة</string>
+    <string name="error_mismatch_password">كلمة المرور غير مطابقة</string>
+    <string name="error_something_wrong">حدث خطأ أثناء المعالجة يرجى المحاولة مرة أخرى!</string>
+    <string name="error_valid_email">ادخل الايميل</string>
+    <string name="error_valid_password">كلمة السر يجب ان تتكون من 6 حروف على الاقل</string>
+    <string name="gcm_defaultSenderId">276090070126</string>
+    <string name="job_start_location">بدأ الرحلة من الموقع</string>
+    <string name="my_location">موقعي</string>
+    <string name="play_link"> Now ! https://play.google.com/store/apps/details?id=</string>
+    <string name="progress_acc_info">الحصول على معلومات الحساب</string>
+    <string name="progress_changing_avaibilty">تغير التوفر</string>
+    <string name="progress_dialog_loading">جاري التحميل</string>
+    <string name="progress_dialog_register">جاري التسجيل</string>
+    <string name="progress_dialog_request">الحصول على طلب</string>
+    <string name="progress_dialog_sign_in">تسجيل الدخول</string>
+    <string name="progress_getting_avaibility">الحصول على التوفر</string>
+    <string name="progress_getting_history">تحميل الرحلات السابقة</string>
+    <string name="progress_getting_types">الحصول على أنواع</string>
+    <string name="progress_loading">جاري التحميل</string>
+    <string name="progress_rating">تقيم الخدمة</string>
+    <string name="progress_respond_request">الرد على الطلبات</string>
+    <string name="progress_send_request">ارسال الطلبات </string>
+    <string name="progress_update_profile">تحديث الحساب الرجاء الانتظار </string>
+    <string name="register_gcm_failed">فشل في التسجيل مع GCM</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="spinner_title">اختر سبب</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="test_min_away">دقيقة بعيدا</string>
+    <string name="text_accept">قبول</string>
+    <string name="text_address">العنوان</string>
+    <string name="text_app">التطبيق !</string>
+    <string name="text_approve">طلبك قيد التأكيد , سيصل ايميل فور القبول شكرا  </string>
+    <string name="text_base_price">اقل سعر للرحلة</string>
+    <string name="text_bio">المعلومات الشخصية</string>
+    <string name="text_call">مكالمة</string>
+    <string name="text_cancel">الغاء</string>
+    <string name="text_close">اغلق</string>
+    <string name="text_comment">تعليقات</string>
+    <string name="text_confirm">موافق / تاكيد</string>
+    <string name="text_continue">استمر</string>
+    <string name="text_cost_per_hour">JOD  كل /دقيقة</string>
+    <string name="text_cost_per_mile"> كل / ميل JOD </string>
+    <string name="text_current_pass">كلمة السر الحالية</string>
+    <string name="text_denied_accessPermission">تم رفض الإذن، لا يمكنك الوصول إلى بيانات الموقع.</string>
+    <string name="text_destination">وجهة العميل</string>
+    <string name="text_distance_cost">قيمة الخصم</string>
+    <string name="text_edit_hintval">ادخل</string>
+    <string name="text_edit_profile">تعديل الحساب</string>
+    <string name="text_email"> البريد الالكتروني </string>
+    <string name="text_empty_rating">تفيمك للزبون</string>
+    <string name="text_enter_amount">أدخل المبلغ</string>
+    <string name="text_enter_email_phone">يرجى إدخال معرف البريد الإلكتروني أو رقم الهاتف المحمول</string>
+    <string name="text_exit_ok">موافق</string>
+    <string name="text_feedback">تقيم </string>
+    <string name="text_fname">الاسم الاول</string>
+    <string name="text_forget_password">هل نسيت كلمة المرور</string>
+    <string name="text_forgetpass">هل نسيت كلمة المرور</string>
+    <string name="text_forgot_password">سيتم إرسال كلمة المرور الخاصة بك إلى البريد الإلكتروني المسجل</string>
+    <string name="text_getting_info_facebook">الحصول على معلومات من الفيسبوك</string>
+    <string name="text_go_offline">متصل</string>
+    <string name="text_go_online">غير متصل</string>
+    <string name="text_go_online_to">اتصل بالشبكة لاستلام الرحلة</string>
+    <string name="text_granted_accessPermission">إذن منح، الآن يمكنك الوصول إلى بيانات الموقع</string>
+    <string name="text_history">رحلاتي </string>
+    <string name="text_iam_using">انا استخدم</string>
+    <string name="text_instant_Job">العمل الفوري</string>
+    <string name="text_insuff_fund">حساب الصندوق غير كاف في</string>
+    <string name="text_invoice">فاتورة </string>
+    <string name="text_language"> اللغة</string>
+    <string name="text_leave">غادر</string>
+    <string name="text_lname">الاسم الاخير</string>
+    <string name="text_logout">تسجيل الخروج</string>
+    <string name="text_lunch">بدأ</string>
+    <string name="text_make_selection">جعل اختيارك</string>
+    <string name="text_miles">كيلوميتر</string>
+    <string name="text_mins">دقائق</string>
+    <string name="text_need_accessPermission">تحتاج إلى السماح بالوصول إلى كل من الأذونات</string>
+    <string name="text_new_pass">كلمة السر الجديدة</string>
+    <string name="text_noaddress_title">العنوان غير متاح</string>
+    <string name="text_now_ride_without_cash">الآن يمكنك ركوب دون نقد</string>
+    <string name="text_number">هاتف</string>
+    <string name="text_ok">موافق</string>
+    <string name="text_ontrip">الرحلة قائمة</string>
+    <string name="text_passs">كلمة المرور</string>
+    <string name="text_pause">وقفة</string>
+    <string name="text_permission">الإذن</string>
+    <string name="text_phonenumber_popup">رقم الهاتف مطلوب</string>
+    <string name="text_playservices_unavailable">تشغيل الخدمات غير متوفر \n حاول مرة أخرى ..</string>
+    <string name="text_profile">الملف الشخصي</string>
+    <string name="text_profile_popup">هذا الخيار غير قابل للتعديل</string>
+    <string name="text_promo_bonus">رصيد اضافي</string>
+    <string name="text_referral_bonus">رصيد اضافي</string>
+    <string name="text_regemail_popup">الرجاء التأكيد على الايميل المضاف  , لن تتمكن من تعديل المعلومات في المستقبل </string>
+    <string name="text_register">تسجيل </string>
+    <string name="text_register_caps">تسجيل </string>
+    <string name="text_regmodelno_popup">الرجاء التأكيد على نوع السيارة المضافة , لن تتمكن من تعديل المعلومات في المستقبل </string>
+    <string name="text_regtaxino_popup">الرجاء التأكيد على المعلومات المضافة , لن تتمكن من تعديل المعلومات في المستقبل </string>
+    <string name="text_reject">رفض</string>
+    <string name="text_reject_stringval">الرجاء ادخال سبب الرفض</string>
+    <string name="text_repair">تصليح</string>
+    <string name="text_return_date">تاريخ العودة</string>
+    <string name="text_retype_pass">تاكيد كلمة السر الجديدة</string>
+    <string name="text_revoke_permission">الموقع والدولة الهاتف إذن إلزامي يرجى السماح للوصول.
+  هل تريد بالتأكيد المتابعة؟</string>
+    <string name="text_select_cancel">الرجاء ادخال سبب الرفض</string>
+    <string name="text_select_service">اختر نوع السيارة</string>
+    <string name="text_setting">اعدادات الحساب </string>
+    <string name="text_share">مشاركة</string>
+    <string name="text_share_app">مشاركة التطبيق</string>
+    <string name="text_signin">تسجيل الدخول</string>
+    <string name="text_signin_caps">تسجيل الدخول</string>
+    <string name="text_someone_logged_account">سجل شخص ما الدخول إلى حسابك</string>
+    <string name="text_sound">اعدادات الصوت</string>
+    <string name="text_submit">موافق</string>
+    <string name="text_taxi_model">نوع المركبة </string>
+    <string name="text_taxi_number">رقم لوحة التسجيل</string>
+    <string name="text_time_cost">وقت الانتظار</string>
+    <string name="text_today">اليوم</string>
+    <string name="text_total">المجموع</string>
+    <string name="text_trips">رحلتك</string>
+    <string name="text_type_card">فيزا</string>
+    <string name="text_type_cash">كاش</string>
+    <string name="text_update_profile">تحديث معلومات الحساب</string>
+    <string name="text_wait">انتظر</string>
+    <string name="text_walk_completed">انهاء الرحلة</string>
+    <string name="text_walk_started">ابدأ الرحلة </string>
+    <string name="text_walker_arrived">اضغط عند الوصول</string>
+    <string name="text_walker_started">اضغط للبدء</string>
+    <string name="text_wallet">المحفظة</string>
+    <string name="text_withdraw">سحب</string>
+    <string name="text_withdrawal">انسحاب</string>
+    <string name="text_withdrawl_done">الانسحاب القيام به!</string>
+    <string name="text_yesterday">البارحة </string>
+    <string name="text_zip">الرمز البريدي</string>
+    <string name="toast_feedback_success">شكرا لتقييمك</string>
+    <string name="toast_forget_password_success">تم ارسال كلمة السر للايميل المسجل لهذا الحساب</string>
+    <string name="toast_no_internet">الإنترنت غير متوفر</string>
+    <string name="toast_number_not_found">عدد غير موجود</string>
+    <string name="toast_register_success">شكرا لك على الاشتراك مع ألو باشا، يمكنك الذهاب على الانترنت للحصول على الرحلات</string>
+    <string name="toast_time_over">وقت الاستجابه انتهى</string>
+    <string name="toast_unable_to_selct_image">غير قادر على اختيار الصورة</string>
+    <string name="toast_update_profile_success">تم تحديث الحساب بنجاح</string>
+    <string name="trip_cancled">تم الغاء الرحلة بنجاح</string>
+    <string name="trip_cancled_client">تم الغاء الرحلة من قبل الزبون</string>
+    <string name="txt_dest_not_available">التسمية غير متوفرة</string>
+    <string name="txt_phone_and_email">رقم الهاتف/ بريد الكتروني</string>
+    <string name="txt_select_country">اختر الدولة لرقم الهاتف</string>
+    <string name="why_not_install_app"> التطبيق! لماذا لا تحاول ذلك ... تثبيت </string>
+</resources>

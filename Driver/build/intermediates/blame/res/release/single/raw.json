@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/raw/beep_new.mp3",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/raw/beep_new.mp3"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/raw/beep.mp3",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/raw/beep.mp3"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/raw/beep_while_notification.mp3",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/raw/beep_while_notification.mp3"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/raw/countrycodes.json",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/raw/countrycodes.json"
+    },
+    {
+        "merged": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/build/intermediates/res/merged/release/raw/sounds.zip",
+        "source": "/home/mukesh/MicrosoftProjects/JayeenTaxi/Driver/src/main/res/raw/sounds.zip"
+    }
+]

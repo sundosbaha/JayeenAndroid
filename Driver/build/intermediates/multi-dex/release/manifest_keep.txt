@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:50
+-keep class com.jayeen.driver.DriverApplication { <init>(...); }
+

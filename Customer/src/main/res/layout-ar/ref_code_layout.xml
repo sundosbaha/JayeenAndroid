@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--addded coordinator layout by @kalai-->
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:textDirection="rtl"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg_white_process"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_margin_register"
+    android:visibility="visible" >
+
+
+<!--changed by kalai line no: 99,102,116,119-->
+
+    <com.jayeen.customer.component.MyFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_margin_register"
+        android:layout_marginLeft="@dimen/activity_margin_register"
+        android:text="@string/text_share_referral"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color_text" />
+
+    <com.jayeen.customer.component.MyFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_text" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_margin_mainscreen" >
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/pBar" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@drawable/loading" -->
+        <!-- android:visibility="gone" > -->
+        <!-- </ImageView> -->
+
+        <com.jayeen.customer.component.MyFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:text="@string/text_waiting_for_confirm"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_mainscreen"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <com.jayeen.customer.component.MyFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/activity_margin_register"
+                android:text="@string/text_your_referral_credit"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_app_gray" />
+
+            <com.jayeen.customer.component.MyFontTextView
+                android:id="@+id/tvReferralEarn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/payment_unit"
+                android:textColor="@color/color_text"
+                android:textSize="@dimen/ub_textsize_huge" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="21"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:orientation="horizontal" >
+
+
+        <!-- android:background="@drawable/bg_btn_small"-->
+        <!--changed to-->
+        <!-- android:layout_height="@dimen/bg_name_height"-->
+        <!-- android:background="@color/colorPrimary"-->
+
+        <com.jayeen.customer.component.MyFontButton
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bg_name_height"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="10"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/text_cancel"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+<android.support.v4.widget.Space
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"/>
+        <!-- android:background="@drawable/bg_btn_small"-->
+        <!--changed to-->
+        <!--android:layout_height="@dimen/bg_name_height"-->
+        <!--android:background="@color/colorPrimary"-->
+
+        <com.jayeen.customer.component.MyFontButton
+            android:id="@+id/btnShare"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bg_name_height"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="10"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/text_share"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>

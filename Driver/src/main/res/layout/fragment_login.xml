@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="20">
+
+        <LinearLayout
+            android:id="@+id/llSigninMain"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="18"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin">
+
+            <!-- <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+               <ImageButton
+                   android:id="@+id/btnLoginFb"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="@dimen/activity_horizontal_margin"
+                   android:background="@null"
+                   android:src="@drawable/btn_facebook" />
+
+               <ImageButton
+                   android:id="@+id/btnLoginGplus"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@null"
+                   android:src="@drawable/btn_google" />
+           </LinearLayout>  -->
+
+            <!-- <include layout="@layout/ub__view" /> -->
+
+            <!--  <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:src="@drawable/or" />  -->
+
+            <com.jayeen.driver.widget.MyFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/text_signin_caps"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_blue" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:gravity="bottom">
+
+                <ImageView
+                    android:id="@+id/flag_country_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="6dp"
+                    android:minHeight="16dp"
+                    android:minWidth="16dp"
+                    android:src="@drawable/f094"
+                    android:visibility="gone" />
+
+                <com.jayeen.driver.widget.MyFontEdittextView
+                    android:id="@+id/country_code_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:enabled="false"
+                    android:gravity="bottom"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:visibility="gone" />
+
+                <android.support.design.widget.TextInputLayout
+                    style="@style/MyCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/txt_phone_and_email"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp">
+
+                    <com.jayeen.driver.widget.MyFontEdittextView
+                        android:id="@+id/etLoginEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/color_text_dark">
+
+                    </com.jayeen.driver.widget.MyFontEdittextView>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/MyCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@drawable/bg_edittext"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <com.jayeen.driver.widget.MyFontEdittextView
+                    android:id="@+id/etLoginPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/text_passs"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_text_dark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <com.jayeen.driver.widget.MyFontButton
+                android:id="@+id/tvLoginForgetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:text="@string/text_forgetpass"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_blue" />
+        </LinearLayout>
+
+        <com.jayeen.driver.widget.MyFontButton
+            android:id="@+id/tvLoginSignin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/llSigninMain"
+            android:layout_weight="2"
+            android:background="@drawable/button_selector_primary"
+            android:gravity="center"
+            android:text="@string/text_signin_caps"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
